@@ -1,0 +1,95 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Defendants.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DreDefendant</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DreDefendant.DreCaseDefendantId" />
+            <div class="form-group">
+                <label asp-for="DreDefendant.LastName" class="control-label"></label>
+                <input asp-for="DreDefendant.LastName" class="form-control" />
+                <span asp-validation-for="DreDefendant.LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreDefendant.FirstName" class="control-label"></label>
+                <input asp-for="DreDefendant.FirstName" class="form-control" />
+                <span asp-validation-for="DreDefendant.FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreDefendant.MiddleName" class="control-label"></label>
+                <input asp-for="DreDefendant.MiddleName" class="form-control" />
+                <span asp-validation-for="DreDefendant.MiddleName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreDefendant.Dob" class="control-label"></label>
+                <input asp-for="DreDefendant.Dob" class="form-control" />
+                <span asp-validation-for="DreDefendant.Dob" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreDefendant.Age" class="control-label"></label>
+                <input asp-for="DreDefendant.Age" class="form-control" />
+                <span asp-validation-for="DreDefendant.Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreDefendant.EthnicityId" class="control-label"></label>
+                <input asp-for="DreDefendant.EthnicityId" class="form-control" />
+                <span asp-validation-for="DreDefendant.EthnicityId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreDefendant.SexId" class="control-label"></label>
+                <input asp-for="DreDefendant.SexId" class="form-control" />
+                <span asp-validation-for="DreDefendant.SexId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreDefendant.RaceId" class="control-label"></label>
+                <input asp-for="DreDefendant.RaceId" class="form-control" />
+                <span asp-validation-for="DreDefendant.RaceId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreDefendant.DreCaseId" class="control-label"></label>
+                <select asp-for="DreDefendant.DreCaseId" class="form-control" asp-items="ViewBag.DreCaseId"></select>
+                <span asp-validation-for="DreDefendant.DreCaseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreDefendant.ArrestingOfficerId" class="control-label"></label>
+                <input asp-for="DreDefendant.ArrestingOfficerId" class="form-control" />
+                <span asp-validation-for="DreDefendant.ArrestingOfficerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreDefendant.ArrestingOfficerName" class="control-label"></label>
+                <input asp-for="DreDefendant.ArrestingOfficerName" class="form-control" />
+                <span asp-validation-for="DreDefendant.ArrestingOfficerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreDefendant.ArrestingOfficerTypeId" class="control-label"></label>
+                <select asp-for="DreDefendant.ArrestingOfficerTypeId" class="form-control" asp-items="ViewBag.ArrestingOfficerTypeId"></select>
+                <span asp-validation-for="DreDefendant.ArrestingOfficerTypeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreDefendant.ArrestingOfficerAgency" class="control-label"></label>
+                <input asp-for="DreDefendant.ArrestingOfficerAgency" class="form-control" />
+                <span asp-validation-for="DreDefendant.ArrestingOfficerAgency" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

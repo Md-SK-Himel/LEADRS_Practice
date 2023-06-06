@@ -1,0 +1,84 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.ToxSpecs.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseToxSpec[0].BacResult)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseToxSpec[0].HospSerResult)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseToxSpec[0].WholeBloodResult)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseToxSpec[0].Active)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseToxSpec[0].DtCreated)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseToxSpec[0].DtUpdated)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseToxSpec[0].NoAlcohol)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseToxSpec[0].DreCase)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseToxSpec[0].ToxSpecType)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreCaseToxSpec) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BacResult)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HospSerResult)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WholeBloodResult)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Active)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DtCreated)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DtUpdated)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NoAlcohol)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreCase.DrecaseId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ToxSpecType.ToxSpecTypeId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DreCaseToxSpecId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DreCaseToxSpecId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DreCaseToxSpecId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

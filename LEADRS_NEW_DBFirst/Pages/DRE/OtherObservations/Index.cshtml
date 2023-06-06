@@ -1,0 +1,150 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.OtherObservations.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].MtNormal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].MtFlaccid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].MtRigid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].MtComments)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].InjectionSitesId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].InjRaText)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].InjLaText)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].InjComments)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].PulseRate3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].PulseTime3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].PulseSite3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].SubDrugs)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].SubDrugsQty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].SubDrugsTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].SubDrugsWhere)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].SubOtherComments)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].EvalCompletionTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].SubRefusedEval)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].SubStopPartEval)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherObservation[0].DreCase)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreCaseOtherObservation) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MtNormal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MtFlaccid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MtRigid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MtComments)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InjectionSitesId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InjRaText)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InjLaText)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InjComments)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PulseRate3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PulseTime3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PulseSite3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubDrugs)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubDrugsQty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubDrugsTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubDrugsWhere)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubOtherComments)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EvalCompletionTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubRefusedEval)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubStopPartEval)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreCase.DrecaseId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.OtherObservationId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.OtherObservationId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.OtherObservationId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

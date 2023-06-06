@@ -1,0 +1,113 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Offenses.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>DreCasesOffense</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DreCasesOffense.DreCaseId" class="control-label"></label>
+                <select asp-for="DreCasesOffense.DreCaseId" class ="form-control" asp-items="ViewBag.DreCaseId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesOffense.Charged" class="control-label"></label>
+                <input asp-for="DreCasesOffense.Charged" class="form-control" />
+                <span asp-validation-for="DreCasesOffense.Charged" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesOffense.Dwi" class="control-label"></label>
+                <input asp-for="DreCasesOffense.Dwi" class="form-control" />
+                <span asp-validation-for="DreCasesOffense.Dwi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesOffense.OffenseId" class="control-label"></label>
+                <input asp-for="DreCasesOffense.OffenseId" class="form-control" />
+                <span asp-validation-for="DreCasesOffense.OffenseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesOffense.RecklessDriving" class="control-label"></label>
+                <input asp-for="DreCasesOffense.RecklessDriving" class="form-control" />
+                <span asp-validation-for="DreCasesOffense.RecklessDriving" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesOffense.PublicIntox" class="control-label"></label>
+                <input asp-for="DreCasesOffense.PublicIntox" class="form-control" />
+                <span asp-validation-for="DreCasesOffense.PublicIntox" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesOffense.Theft" class="control-label"></label>
+                <input asp-for="DreCasesOffense.Theft" class="form-control" />
+                <span asp-validation-for="DreCasesOffense.Theft" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesOffense.TheftCharged" class="control-label"></label>
+                <input asp-for="DreCasesOffense.TheftCharged" class="form-control" />
+                <span asp-validation-for="DreCasesOffense.TheftCharged" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesOffense.Assault" class="control-label"></label>
+                <input asp-for="DreCasesOffense.Assault" class="form-control" />
+                <span asp-validation-for="DreCasesOffense.Assault" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesOffense.AssaultCharged" class="control-label"></label>
+                <input asp-for="DreCasesOffense.AssaultCharged" class="form-control" />
+                <span asp-validation-for="DreCasesOffense.AssaultCharged" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesOffense.Possession" class="control-label"></label>
+                <input asp-for="DreCasesOffense.Possession" class="form-control" />
+                <span asp-validation-for="DreCasesOffense.Possession" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesOffense.PossessionCharged" class="control-label"></label>
+                <input asp-for="DreCasesOffense.PossessionCharged" class="form-control" />
+                <span asp-validation-for="DreCasesOffense.PossessionCharged" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesOffense.Other" class="control-label"></label>
+                <input asp-for="DreCasesOffense.Other" class="form-control" />
+                <span asp-validation-for="DreCasesOffense.Other" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesOffense.OtherCharged" class="control-label"></label>
+                <input asp-for="DreCasesOffense.OtherCharged" class="form-control" />
+                <span asp-validation-for="DreCasesOffense.OtherCharged" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesOffense.CrashId" class="control-label"></label>
+                <input asp-for="DreCasesOffense.CrashId" class="form-control" />
+                <span asp-validation-for="DreCasesOffense.CrashId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesOffense.InjuryId" class="control-label"></label>
+                <input asp-for="DreCasesOffense.InjuryId" class="form-control" />
+                <span asp-validation-for="DreCasesOffense.InjuryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesOffense.NoChargeComment" class="control-label"></label>
+                <input asp-for="DreCasesOffense.NoChargeComment" class="form-control" />
+                <span asp-validation-for="DreCasesOffense.NoChargeComment" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

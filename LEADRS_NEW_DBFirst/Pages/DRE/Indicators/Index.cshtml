@@ -1,0 +1,192 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Indicators.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].HgnInd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].VgnInd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].LocInd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].PsInd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].RtlInd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].PrInd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].BpInd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].BtInd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].MstInd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].CnsDep)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].HallBody)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].CnsSti)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].DissAne)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].NarAna)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].Inha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].Cann)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].OpAlcohol)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].OpCannabis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].OpCnsDepressant)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].OpCnsStimulant)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].OpDissAnesthetic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].OpHallucinogen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].OpInhalant)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].OpMedical)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].OpNarcoticAnalgesic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].OpNotImpaired)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIndicator[0].DreCase)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreCaseIndicator) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HgnInd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VgnInd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LocInd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PsInd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RtlInd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrInd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BpInd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BtInd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MstInd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CnsDep)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HallBody)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CnsSti)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DissAne)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NarAna)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Inha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cann)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OpAlcohol)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OpCannabis)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OpCnsDepressant)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OpCnsStimulant)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OpDissAnesthetic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OpHallucinogen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OpInhalant)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OpMedical)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OpNarcoticAnalgesic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OpNotImpaired)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreCase.DrecaseId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DreCaseIndicatorId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DreCaseIndicatorId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DreCaseIndicatorId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

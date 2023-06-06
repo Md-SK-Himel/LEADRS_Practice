@@ -1,0 +1,80 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE._OPT.DreFirstIndicators.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>TblOptDreFirstIndicator</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="TblOptDreFirstIndicator.DreCaseFirstIndicatorId" />
+            <div class="form-group">
+                <label asp-for="TblOptDreFirstIndicator.IndType" class="control-label"></label>
+                <input asp-for="TblOptDreFirstIndicator.IndType" class="form-control" />
+                <span asp-validation-for="TblOptDreFirstIndicator.IndType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TblOptDreFirstIndicator.CnsDep" class="control-label"></label>
+                <input asp-for="TblOptDreFirstIndicator.CnsDep" class="form-control" />
+                <span asp-validation-for="TblOptDreFirstIndicator.CnsDep" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TblOptDreFirstIndicator.CnsSti" class="control-label"></label>
+                <input asp-for="TblOptDreFirstIndicator.CnsSti" class="form-control" />
+                <span asp-validation-for="TblOptDreFirstIndicator.CnsSti" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TblOptDreFirstIndicator.Hall" class="control-label"></label>
+                <input asp-for="TblOptDreFirstIndicator.Hall" class="form-control" />
+                <span asp-validation-for="TblOptDreFirstIndicator.Hall" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TblOptDreFirstIndicator.DisAne" class="control-label"></label>
+                <input asp-for="TblOptDreFirstIndicator.DisAne" class="form-control" />
+                <span asp-validation-for="TblOptDreFirstIndicator.DisAne" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TblOptDreFirstIndicator.NarAna" class="control-label"></label>
+                <input asp-for="TblOptDreFirstIndicator.NarAna" class="form-control" />
+                <span asp-validation-for="TblOptDreFirstIndicator.NarAna" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TblOptDreFirstIndicator.Inha" class="control-label"></label>
+                <input asp-for="TblOptDreFirstIndicator.Inha" class="form-control" />
+                <span asp-validation-for="TblOptDreFirstIndicator.Inha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TblOptDreFirstIndicator.Cann" class="control-label"></label>
+                <input asp-for="TblOptDreFirstIndicator.Cann" class="form-control" />
+                <span asp-validation-for="TblOptDreFirstIndicator.Cann" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TblOptDreFirstIndicator.IndTypeFullName" class="control-label"></label>
+                <input asp-for="TblOptDreFirstIndicator.IndTypeFullName" class="form-control" />
+                <span asp-validation-for="TblOptDreFirstIndicator.IndTypeFullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TblOptDreFirstIndicator.DisplayName" class="control-label"></label>
+                <input asp-for="TblOptDreFirstIndicator.DisplayName" class="form-control" />
+                <span asp-validation-for="TblOptDreFirstIndicator.DisplayName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

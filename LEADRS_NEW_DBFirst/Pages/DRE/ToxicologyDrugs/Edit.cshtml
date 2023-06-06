@@ -1,0 +1,55 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.ToxicologyDrugs.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DreCaseToxicologyDrug</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DreCaseToxicologyDrug.DreCaseToxDrugId" />
+            <div class="form-group">
+                <label asp-for="DreCaseToxicologyDrug.DreCaseId" class="control-label"></label>
+                <select asp-for="DreCaseToxicologyDrug.DreCaseId" class="form-control" asp-items="ViewBag.DreCaseId"></select>
+                <span asp-validation-for="DreCaseToxicologyDrug.DreCaseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseToxicologyDrug.DreCaseToxSpecId" class="control-label"></label>
+                <select asp-for="DreCaseToxicologyDrug.DreCaseToxSpecId" class="form-control" asp-items="ViewBag.DreCaseToxSpecId"></select>
+                <span asp-validation-for="DreCaseToxicologyDrug.DreCaseToxSpecId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseToxicologyDrug.DpsDrugListId" class="control-label"></label>
+                <input asp-for="DreCaseToxicologyDrug.DpsDrugListId" class="form-control" />
+                <span asp-validation-for="DreCaseToxicologyDrug.DpsDrugListId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseToxicologyDrug.DrugResult" class="control-label"></label>
+                <input asp-for="DreCaseToxicologyDrug.DrugResult" class="form-control" />
+                <span asp-validation-for="DreCaseToxicologyDrug.DrugResult" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseToxicologyDrug.DrugMeasurement" class="control-label"></label>
+                <input asp-for="DreCaseToxicologyDrug.DrugMeasurement" class="form-control" />
+                <span asp-validation-for="DreCaseToxicologyDrug.DrugMeasurement" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

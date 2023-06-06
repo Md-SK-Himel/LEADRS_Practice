@@ -1,0 +1,72 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.VitalSigns.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCasesVitalSign[0].PulseRate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCasesVitalSign[0].PulseTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCasesVitalSign[0].PulseSite)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCasesVitalSign[0].Bpsystolic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCasesVitalSign[0].Bpdiastolic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCasesVitalSign[0].Temperature)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCasesVitalSign[0].DreCase)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreCasesVitalSign) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PulseRate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PulseTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PulseSite)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bpsystolic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bpdiastolic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Temperature)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreCase.DrecaseId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DreCaseVitalSignId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DreCaseVitalSignId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DreCaseVitalSignId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

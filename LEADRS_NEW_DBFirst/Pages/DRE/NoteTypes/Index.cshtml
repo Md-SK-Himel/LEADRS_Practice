@@ -1,0 +1,60 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.NoteTypes.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseNoteType[0].Section)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseNoteType[0].Active)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseNoteType[0].FacesheetOrder)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseNoteType[0].NoteOrder)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseNoteType[0].DreCasePage)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreCaseNoteType) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Section)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Active)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FacesheetOrder)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NoteOrder)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreCasePage.DreCasePageId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DreCaseNoteTypeId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DreCaseNoteTypeId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DreCaseNoteTypeId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,97 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.OtherOfficers.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>DreCasesOtherOfficer</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOtherOfficer.OfficerId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOtherOfficer.OfficerId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOtherOfficer.OfficerUserId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOtherOfficer.OfficerUserId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOtherOfficer.OfficerName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOtherOfficer.OfficerName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOtherOfficer.DreNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOtherOfficer.DreNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOtherOfficer.OfficerAgency)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOtherOfficer.OfficerAgency)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOtherOfficer.OfficerDeptId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOtherOfficer.OfficerDeptId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOtherOfficer.Pbt)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOtherOfficer.Pbt)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOtherOfficer.RollingLogNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOtherOfficer.RollingLogNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOtherOfficer.Accepted)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOtherOfficer.Accepted)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOtherOfficer.Badge)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOtherOfficer.Badge)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOtherOfficer.IsOwner)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOtherOfficer.IsOwner)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOtherOfficer.DreCase)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOtherOfficer.DreCase.DrecaseId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOtherOfficer.DreRole)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOtherOfficer.DreRole.DreroleId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.DreCasesOtherOfficer?.OtherOfficerId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

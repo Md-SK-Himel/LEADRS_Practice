@@ -1,0 +1,312 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Ols.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlstimeL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlstimeR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlsswaysL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlsswaysR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlsarmsL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlsarmsR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlshoppingL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlshoppingR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlsfootL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlsfootR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlsleftDown)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlsleftDownCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlsrightDown)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlsrightDownCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].FootWearTypeId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OneLegStandGiven)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].UnableToPerform)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].UnderstoodInstruction)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].MuscleTensions)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].Sounds)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].Olsnoates)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlsarmTimeL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlsarmTimeR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlsswayTimeL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlsswayTimeR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlshopTimeL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlshopTimeR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlstimeLeftDown)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlstimeRightDown)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].NolookDownL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].NolookDownR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].NoCountL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].NoCountR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].NotSixInchesL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].NotSixInchesR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].BodyTremosL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].EyeLidTremosL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].LegTremosL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OtherL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlsotherL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].BodyTremosR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].EyeLidTremosR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].LegTremosR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OtherR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].OlsotherR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].Olscomments)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOls[0].DreCase)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreCaseOls) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlstimeL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlstimeR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlsswaysL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlsswaysR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlsarmsL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlsarmsR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlshoppingL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlshoppingR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlsfootL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlsfootR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlsleftDown)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlsleftDownCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlsrightDown)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlsrightDownCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FootWearTypeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OneLegStandGiven)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnableToPerform)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnderstoodInstruction)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MuscleTensions)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sounds)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Olsnoates)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlsarmTimeL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlsarmTimeR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlsswayTimeL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlsswayTimeR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlshopTimeL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlshopTimeR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlstimeLeftDown)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlstimeRightDown)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NolookDownL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NolookDownR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NoCountL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NoCountR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NotSixInchesL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NotSixInchesR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BodyTremosL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EyeLidTremosL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LegTremosL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OtherL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlsotherL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BodyTremosR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EyeLidTremosR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LegTremosR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OtherR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OlsotherR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Olscomments)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreCase.DrecaseId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DreCaseOlsid">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DreCaseOlsid">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DreCaseOlsid">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

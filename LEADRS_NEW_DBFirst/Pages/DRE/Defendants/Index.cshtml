@@ -1,0 +1,108 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Defendants.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreDefendant[0].LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreDefendant[0].FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreDefendant[0].MiddleName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreDefendant[0].Dob)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreDefendant[0].Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreDefendant[0].EthnicityId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreDefendant[0].SexId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreDefendant[0].RaceId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreDefendant[0].ArrestingOfficerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreDefendant[0].ArrestingOfficerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreDefendant[0].ArrestingOfficerAgency)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreDefendant[0].ArrestingOfficerType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreDefendant[0].DreCase)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreDefendant) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MiddleName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dob)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EthnicityId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SexId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RaceId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ArrestingOfficerId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ArrestingOfficerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ArrestingOfficerAgency)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ArrestingOfficerType.ArrestingOfficerTypeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreCase.DrecaseId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DreCaseDefendantId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DreCaseDefendantId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DreCaseDefendantId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

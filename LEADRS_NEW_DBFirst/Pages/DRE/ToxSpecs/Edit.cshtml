@@ -1,0 +1,75 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.ToxSpecs.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DreCaseToxSpec</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DreCaseToxSpec.DreCaseToxSpecId" />
+            <div class="form-group">
+                <label asp-for="DreCaseToxSpec.DreCaseId" class="control-label"></label>
+                <select asp-for="DreCaseToxSpec.DreCaseId" class="form-control" asp-items="ViewBag.DreCaseId"></select>
+                <span asp-validation-for="DreCaseToxSpec.DreCaseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseToxSpec.ToxSpecTypeId" class="control-label"></label>
+                <select asp-for="DreCaseToxSpec.ToxSpecTypeId" class="form-control" asp-items="ViewBag.ToxSpecTypeId"></select>
+                <span asp-validation-for="DreCaseToxSpec.ToxSpecTypeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseToxSpec.BacResult" class="control-label"></label>
+                <input asp-for="DreCaseToxSpec.BacResult" class="form-control" />
+                <span asp-validation-for="DreCaseToxSpec.BacResult" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseToxSpec.HospSerResult" class="control-label"></label>
+                <input asp-for="DreCaseToxSpec.HospSerResult" class="form-control" />
+                <span asp-validation-for="DreCaseToxSpec.HospSerResult" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseToxSpec.WholeBloodResult" class="control-label"></label>
+                <input asp-for="DreCaseToxSpec.WholeBloodResult" class="form-control" />
+                <span asp-validation-for="DreCaseToxSpec.WholeBloodResult" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseToxSpec.Active" class="control-label"></label>
+                <input asp-for="DreCaseToxSpec.Active" class="form-control" />
+                <span asp-validation-for="DreCaseToxSpec.Active" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseToxSpec.DtCreated" class="control-label"></label>
+                <input asp-for="DreCaseToxSpec.DtCreated" class="form-control" />
+                <span asp-validation-for="DreCaseToxSpec.DtCreated" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseToxSpec.DtUpdated" class="control-label"></label>
+                <input asp-for="DreCaseToxSpec.DtUpdated" class="form-control" />
+                <span asp-validation-for="DreCaseToxSpec.DtUpdated" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseToxSpec.NoAlcohol" class="control-label"></label>
+                <input asp-for="DreCaseToxSpec.NoAlcohol" class="form-control" />
+                <span asp-validation-for="DreCaseToxSpec.NoAlcohol" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

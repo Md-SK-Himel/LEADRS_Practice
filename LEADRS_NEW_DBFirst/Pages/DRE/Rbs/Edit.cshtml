@@ -1,0 +1,150 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Rbs.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DreCaseRb</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DreCaseRb.DreCaseRbid" />
+            <div class="form-group">
+                <label asp-for="DreCaseRb.DreCaseId" class="control-label"></label>
+                <select asp-for="DreCaseRb.DreCaseId" class="form-control" asp-items="ViewBag.DreCaseId"></select>
+                <span asp-validation-for="DreCaseRb.DreCaseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.AlmostFell" class="control-label"></label>
+                <input asp-for="DreCaseRb.AlmostFell" class="form-control" />
+                <span asp-validation-for="DreCaseRb.AlmostFell" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.BodyTremors" class="control-label"></label>
+                <input asp-for="DreCaseRb.BodyTremors" class="form-control" />
+                <span asp-validation-for="DreCaseRb.BodyTremors" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.Circsway" class="control-label"></label>
+                <input asp-for="DreCaseRb.Circsway" class="form-control" />
+                <span asp-validation-for="DreCaseRb.Circsway" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.CircswayDesc" class="control-label"></label>
+                <input asp-for="DreCaseRb.CircswayDesc" class="form-control" />
+                <span asp-validation-for="DreCaseRb.CircswayDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.EyelidTremos" class="control-label"></label>
+                <input asp-for="DreCaseRb.EyelidTremos" class="form-control" />
+                <span asp-validation-for="DreCaseRb.EyelidTremos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.FrontToBackSway" class="control-label"></label>
+                <input asp-for="DreCaseRb.FrontToBackSway" class="form-control" />
+                <span asp-validation-for="DreCaseRb.FrontToBackSway" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.FrontToBackSwayDesc" class="control-label"></label>
+                <input asp-for="DreCaseRb.FrontToBackSwayDesc" class="form-control" />
+                <span asp-validation-for="DreCaseRb.FrontToBackSwayDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.InternalClock" class="control-label"></label>
+                <input asp-for="DreCaseRb.InternalClock" class="form-control" />
+                <span asp-validation-for="DreCaseRb.InternalClock" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.LegTremos" class="control-label"></label>
+                <input asp-for="DreCaseRb.LegTremos" class="form-control" />
+                <span asp-validation-for="DreCaseRb.LegTremos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.MuscleToneFlaccid" class="control-label"></label>
+                <input asp-for="DreCaseRb.MuscleToneFlaccid" class="form-control" />
+                <span asp-validation-for="DreCaseRb.MuscleToneFlaccid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.MuscleToneRigid" class="control-label"></label>
+                <input asp-for="DreCaseRb.MuscleToneRigid" class="form-control" />
+                <span asp-validation-for="DreCaseRb.MuscleToneRigid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.NoSway" class="control-label"></label>
+                <input asp-for="DreCaseRb.NoSway" class="form-control" />
+                <span asp-validation-for="DreCaseRb.NoSway" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.RombergOther" class="control-label"></label>
+                <input asp-for="DreCaseRb.RombergOther" class="form-control" />
+                <span asp-validation-for="DreCaseRb.RombergOther" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.RombergBalanceGiven" class="control-label"></label>
+                <input asp-for="DreCaseRb.RombergBalanceGiven" class="form-control" />
+                <span asp-validation-for="DreCaseRb.RombergBalanceGiven" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.SideToSideSway" class="control-label"></label>
+                <input asp-for="DreCaseRb.SideToSideSway" class="form-control" />
+                <span asp-validation-for="DreCaseRb.SideToSideSway" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.SideToSideSwayDesc" class="control-label"></label>
+                <input asp-for="DreCaseRb.SideToSideSwayDesc" class="form-control" />
+                <span asp-validation-for="DreCaseRb.SideToSideSwayDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.Statement" class="control-label"></label>
+                <input asp-for="DreCaseRb.Statement" class="form-control" />
+                <span asp-validation-for="DreCaseRb.Statement" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.OtherText" class="control-label"></label>
+                <input asp-for="DreCaseRb.OtherText" class="form-control" />
+                <span asp-validation-for="DreCaseRb.OtherText" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.UnableToPerform" class="control-label"></label>
+                <input asp-for="DreCaseRb.UnableToPerform" class="form-control" />
+                <span asp-validation-for="DreCaseRb.UnableToPerform" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.UnableToStandStill" class="control-label"></label>
+                <input asp-for="DreCaseRb.UnableToStandStill" class="form-control" />
+                <span asp-validation-for="DreCaseRb.UnableToStandStill" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.UnserstoodInstructions" class="control-label"></label>
+                <input asp-for="DreCaseRb.UnserstoodInstructions" class="form-control" />
+                <span asp-validation-for="DreCaseRb.UnserstoodInstructions" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.UsedArms" class="control-label"></label>
+                <input asp-for="DreCaseRb.UsedArms" class="form-control" />
+                <span asp-validation-for="DreCaseRb.UsedArms" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseRb.OpenedEyes" class="control-label"></label>
+                <input asp-for="DreCaseRb.OpenedEyes" class="form-control" />
+                <span asp-validation-for="DreCaseRb.OpenedEyes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

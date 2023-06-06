@@ -1,0 +1,328 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.AoObs.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>DreCasesAoObs</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DreCasesAoObs.DreCaseId" class="control-label"></label>
+                <select asp-for="DreCasesAoObs.DreCaseId" class ="form-control" asp-items="ViewBag.DreCaseId"></select>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.ClothingDisorderly" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.ClothingDisorderly)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.ClothingSoiled" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.ClothingSoiled)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.ClothingStained" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.ClothingStained)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.ClothingTorn" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.ClothingTorn)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.ClothingOrderly" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.ClothingOrderly)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.BalanceSwaying" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.BalanceSwaying)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.BalanceUnsteady" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.BalanceUnsteady)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.BalanceNeededSupport" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.BalanceNeededSupport)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.BalanceFallingDown" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.BalanceFallingDown)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.BalanceNormal" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.BalanceNormal)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.WalkingStaggering" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.WalkingStaggering)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.WalkingFalling" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.WalkingFalling)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.WalkingSwaying" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.WalkingSwaying)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.WalkingHeavyFooted" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.WalkingHeavyFooted)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.WalkingNormal" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.WalkingNormal)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.SpeechSlurred" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.SpeechSlurred)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.SpeechIncoherent" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.SpeechIncoherent)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.SpeechThickTongued" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.SpeechThickTongued)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.SpeechSlowMumbled" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.SpeechSlowMumbled)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.SpeechNormal" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.SpeechNormal)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.EyesRed" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.EyesRed)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.EyesWatering" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.EyesWatering)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.EyesDilated" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.EyesDilated)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.EyesDroopyEyeLids" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.EyesDroopyEyeLids)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.EyesNormal" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.EyesNormal)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.AttitudeUnCooperative" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.AttitudeUnCooperative)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.AttitudeCooperative" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.AttitudeCooperative)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.AttitudeCombative" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.AttitudeCombative)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.AttitudeIndifferent" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.AttitudeIndifferent)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.AttitudeCocky" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.AttitudeCocky)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.AttitudeApologetic" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.AttitudeApologetic)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesAoObs.TypeOfAlcohol" class="control-label"></label>
+                <input asp-for="DreCasesAoObs.TypeOfAlcohol" class="form-control" />
+                <span asp-validation-for="DreCasesAoObs.TypeOfAlcohol" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesAoObs.UnusualActions" class="control-label"></label>
+                <input asp-for="DreCasesAoObs.UnusualActions" class="form-control" />
+                <span asp-validation-for="DreCasesAoObs.UnusualActions" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesAoObs.DrugSuspected" class="control-label"></label>
+                <input asp-for="DreCasesAoObs.DrugSuspected" class="form-control" />
+                <span asp-validation-for="DreCasesAoObs.DrugSuspected" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesAoObs.DrugWhySuspected" class="control-label"></label>
+                <input asp-for="DreCasesAoObs.DrugWhySuspected" class="form-control" />
+                <span asp-validation-for="DreCasesAoObs.DrugWhySuspected" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.DrugCategoryCnsdepressant" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.DrugCategoryCnsdepressant)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.DrugCategoryHallucinogents" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.DrugCategoryHallucinogents)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.DrugCategoryNarcoticAbalgestic" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.DrugCategoryNarcoticAbalgestic)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.DrugCategoryCannabis" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.DrugCategoryCannabis)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.DrugCategoryCnsstimulants" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.DrugCategoryCnsstimulants)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.DrugCategoryPcp" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.DrugCategoryPcp)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.DrugCategoryInhalants" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.DrugCategoryInhalants)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesAoObs.DrugReasonSuspected" class="control-label"></label>
+                <input asp-for="DreCasesAoObs.DrugReasonSuspected" class="form-control" />
+                <span asp-validation-for="DreCasesAoObs.DrugReasonSuspected" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesAoObs.Comments" class="control-label"></label>
+                <input asp-for="DreCasesAoObs.Comments" class="form-control" />
+                <span asp-validation-for="DreCasesAoObs.Comments" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesAoObs.Bac" class="control-label"></label>
+                <input asp-for="DreCasesAoObs.Bac" class="form-control" />
+                <span asp-validation-for="DreCasesAoObs.Bac" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.InstrumentPbt" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.InstrumentPbt)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.InstrumentIntoxilyzer" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.InstrumentIntoxilyzer)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.InstrumentOther" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.InstrumentOther)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.InstrumentRefused" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.InstrumentRefused)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.InstrumentNa" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.InstrumentNa)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.InstrumentPending" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.InstrumentPending)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCasesAoObs.InstrumentWarrant" /> @Html.DisplayNameFor(model => model.DreCasesAoObs.InstrumentWarrant)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesAoObs.InstrumentNumber" class="control-label"></label>
+                <input asp-for="DreCasesAoObs.InstrumentNumber" class="form-control" />
+                <span asp-validation-for="DreCasesAoObs.InstrumentNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesAoObs.InstrumentPbtdate" class="control-label"></label>
+                <input asp-for="DreCasesAoObs.InstrumentPbtdate" class="form-control" />
+                <span asp-validation-for="DreCasesAoObs.InstrumentPbtdate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesAoObs.AdditionalBreathPerformed" class="control-label"></label>
+                <input asp-for="DreCasesAoObs.AdditionalBreathPerformed" class="form-control" />
+                <span asp-validation-for="DreCasesAoObs.AdditionalBreathPerformed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesAoObs.BreathInstrumentNumber" class="control-label"></label>
+                <input asp-for="DreCasesAoObs.BreathInstrumentNumber" class="form-control" />
+                <span asp-validation-for="DreCasesAoObs.BreathInstrumentNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesAoObs.BreathRefused" class="control-label"></label>
+                <input asp-for="DreCasesAoObs.BreathRefused" class="form-control" />
+                <span asp-validation-for="DreCasesAoObs.BreathRefused" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesAoObs.BreathResults" class="control-label"></label>
+                <input asp-for="DreCasesAoObs.BreathResults" class="form-control" />
+                <span asp-validation-for="DreCasesAoObs.BreathResults" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasesAoObs.TypeAlcoholDrug" class="control-label"></label>
+                <input asp-for="DreCasesAoObs.TypeAlcoholDrug" class="form-control" />
+                <span asp-validation-for="DreCasesAoObs.TypeAlcoholDrug" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

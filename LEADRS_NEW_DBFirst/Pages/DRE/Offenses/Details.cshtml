@@ -1,0 +1,121 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Offenses.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>DreCasesOffense</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOffense.Charged)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOffense.Charged)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOffense.Dwi)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOffense.Dwi)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOffense.OffenseId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOffense.OffenseId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOffense.RecklessDriving)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOffense.RecklessDriving)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOffense.PublicIntox)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOffense.PublicIntox)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOffense.Theft)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOffense.Theft)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOffense.TheftCharged)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOffense.TheftCharged)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOffense.Assault)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOffense.Assault)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOffense.AssaultCharged)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOffense.AssaultCharged)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOffense.Possession)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOffense.Possession)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOffense.PossessionCharged)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOffense.PossessionCharged)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOffense.Other)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOffense.Other)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOffense.OtherCharged)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOffense.OtherCharged)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOffense.CrashId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOffense.CrashId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOffense.InjuryId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOffense.InjuryId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOffense.NoChargeComment)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOffense.NoChargeComment)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCasesOffense.DreCase)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCasesOffense.DreCase.DrecaseId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.DreCasesOffense?.DreCaseOffenseId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

@@ -1,0 +1,198 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Hgns.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].CluesLeft)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].CluesRight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].CluesTotal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].HeadInjuries)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].HeadInjuriesComments)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].Contacts)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].ContactDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].EqualPupilSize)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].PupilSizeComments)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].RestingNystagmus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].EqualTracking)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].FollowStimulus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].StimulusComments)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].LackOfPursuitL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].LackOfPursuitR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].DistinctMaxDevL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].DistinctMaxDevR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].OnsetPrior45L)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].OnsetPrior45R)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].IsVerticalNyst)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].OtherComments)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].HgnUnderstood)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].VerticalNyst)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].HgnEstimatedAngleId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].LestimatedAngleId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].RestimatedAngleId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].ConvergencePresent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseHgn[0].DreCase)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreCaseHgn) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CluesLeft)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CluesRight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CluesTotal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeadInjuries)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HeadInjuriesComments)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contacts)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EqualPupilSize)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PupilSizeComments)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RestingNystagmus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EqualTracking)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FollowStimulus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StimulusComments)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LackOfPursuitL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LackOfPursuitR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DistinctMaxDevL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DistinctMaxDevR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OnsetPrior45L)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OnsetPrior45R)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsVerticalNyst)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OtherComments)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HgnUnderstood)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VerticalNyst)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HgnEstimatedAngleId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LestimatedAngleId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RestimatedAngleId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ConvergencePresent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreCase.DrecaseId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DreCaseHgnId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DreCaseHgnId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DreCaseHgnId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
