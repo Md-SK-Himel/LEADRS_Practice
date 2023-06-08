@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\LEADRS_NEW_DBFirst.props" />
-</Project>
