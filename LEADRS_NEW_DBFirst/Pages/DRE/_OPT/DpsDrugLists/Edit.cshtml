@@ -1,0 +1,45 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE._OPT.DpsDrugLists.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DpsDrugList</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DpsDrugList.DpsDrugListId" />
+            <div class="form-group">
+                <label asp-for="DpsDrugList.DpsDrug" class="control-label"></label>
+                <input asp-for="DpsDrugList.DpsDrug" class="form-control" />
+                <span asp-validation-for="DpsDrugList.DpsDrug" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DpsDrugList.DpsDrugCategory" class="control-label"></label>
+                <input asp-for="DpsDrugList.DpsDrugCategory" class="form-control" />
+                <span asp-validation-for="DpsDrugList.DpsDrugCategory" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DpsDrugList.Active" class="control-label"></label>
+                <input asp-for="DpsDrugList.Active" class="form-control" />
+                <span asp-validation-for="DpsDrugList.Active" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

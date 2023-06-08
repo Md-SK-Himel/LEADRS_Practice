@@ -1,0 +1,472 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Cases.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>DRECase</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.UniqueId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.UniqueId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.EvaluatorId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.EvaluatorId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.CaseOwnerId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.CaseOwnerId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.CaseOwnerName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.CaseOwnerName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.CaseOwnerAgency)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.CaseOwnerAgency)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.CaseOwnerRank)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.CaseOwnerRank)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.CaseOwnerBadge)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.CaseOwnerBadge)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.CaseOwnerDepartmentId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.CaseOwnerDepartmentId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.DreNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.DreNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.RollingLogNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.RollingLogNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.LocationId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.LocationId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.DepartmentId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.DepartmentId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.CrashNone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.CrashNone)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.CrashFatal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.CrashFatal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.CrashInjury)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.CrashInjury)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.CrashProperty)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.CrashProperty)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.AgencyCaseNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.AgencyCaseNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.EvaulationDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.EvaulationDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.AssociatedCaseId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.AssociatedCaseId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.NotifyDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.NotifyDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.NotifyTime)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.NotifyTime)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.InitialObservationOfSubject)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.InitialObservationOfSubject)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.EvaluationAddress)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.EvaluationAddress)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.OffenseAddress1)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.OffenseAddress1)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.OffenseAddress2)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.OffenseAddress2)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.OffenseCity)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.OffenseCity)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.OffenseState)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.OffenseState)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.OffenseCounty)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.OffenseCounty)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.OffenseLat)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.OffenseLat)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.OffenseLng)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.OffenseLng)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.OffenseZip)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.OffenseZip)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.MirandaGiven)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.MirandaGiven)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.MirandaEnglish)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.MirandaEnglish)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.MirandaSpanish)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.MirandaSpanish)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.MirandaDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.MirandaDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.MirandaUnderstood)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.MirandaUnderstood)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.MirandaGivenBy)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.MirandaGivenBy)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.EatenToday)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.EatenToday)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.EatenWhen)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.EatenWhen)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.DrinkingToday)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.DrinkingToday)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.DrinkingHowMuch)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.DrinkingHowMuch)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.DrinkingTime)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.DrinkingTime)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.DefendantTime)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.DefendantTime)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.ActualTime)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.ActualTime)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.LastSleep)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.LastSleep)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.SleepHowLong)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.SleepHowLong)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.SickInjured)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.SickInjured)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.SickInjuredDesc)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.SickInjuredDesc)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.DiabeticEpileptic)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.DiabeticEpileptic)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.DiabeticEpilepticDesc)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.DiabeticEpilepticDesc)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.Insulin)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.Insulin)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.InsulinDesc)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.InsulinDesc)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.PhysicalDefects)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.PhysicalDefects)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.PhysicalDefectsDesc)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.PhysicalDefectsDesc)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.UnderCare)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.UnderCare)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.UnderCareDesc)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.UnderCareDesc)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.MedicationsDrug)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.MedicationsDrug)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.MedicationsDrugDesc)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.MedicationsDrugDesc)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.PulseRate1)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.PulseRate1)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.PulseSite1)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.PulseSite1)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.PulseTime1)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.PulseTime1)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.PulseRate2)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.PulseRate2)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.PulseSite2)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.PulseSite2)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.PulseTime2)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.PulseTime2)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.PulseRate3)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.PulseRate3)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.PulseSite3)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.PulseSite3)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.PulseTime3)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.PulseTime3)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.InitialAngleNystagums)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.InitialAngleNystagums)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.InitialPupilSizeL)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.InitialPupilSizeL)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.InitialPupilSizeR)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.InitialPupilSizeR)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.DREType)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.DREType.DRETypeId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.DreRole)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.DreRole.DRERoleId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.DreNotified)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.DreNotified.DreNotifiedId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.DreRequested)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.DreRequested.DreRequestedId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DRECase.Status)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DRECase.Status.DRECaseStatusId)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="DRECase.DRECaseId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

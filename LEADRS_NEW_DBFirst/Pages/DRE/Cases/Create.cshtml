@@ -1,0 +1,399 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Cases.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>DRECase</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DRECase.UniqueId" class="control-label"></label>
+                <input asp-for="DRECase.UniqueId" class="form-control" />
+                <span asp-validation-for="DRECase.UniqueId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.DreTypeId" class="control-label"></label>
+                <select asp-for="DRECase.DreTypeId" class ="form-control" asp-items="ViewBag.DreTypeId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.EvaluatorId" class="control-label"></label>
+                <input asp-for="DRECase.EvaluatorId" class="form-control" />
+                <span asp-validation-for="DRECase.EvaluatorId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.CaseOwnerId" class="control-label"></label>
+                <input asp-for="DRECase.CaseOwnerId" class="form-control" />
+                <span asp-validation-for="DRECase.CaseOwnerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.CaseOwnerName" class="control-label"></label>
+                <input asp-for="DRECase.CaseOwnerName" class="form-control" />
+                <span asp-validation-for="DRECase.CaseOwnerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.CaseOwnerAgency" class="control-label"></label>
+                <input asp-for="DRECase.CaseOwnerAgency" class="form-control" />
+                <span asp-validation-for="DRECase.CaseOwnerAgency" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.CaseOwnerRank" class="control-label"></label>
+                <input asp-for="DRECase.CaseOwnerRank" class="form-control" />
+                <span asp-validation-for="DRECase.CaseOwnerRank" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.CaseOwnerBadge" class="control-label"></label>
+                <input asp-for="DRECase.CaseOwnerBadge" class="form-control" />
+                <span asp-validation-for="DRECase.CaseOwnerBadge" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.CaseOwnerDepartmentId" class="control-label"></label>
+                <input asp-for="DRECase.CaseOwnerDepartmentId" class="form-control" />
+                <span asp-validation-for="DRECase.CaseOwnerDepartmentId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.DreNumber" class="control-label"></label>
+                <input asp-for="DRECase.DreNumber" class="form-control" />
+                <span asp-validation-for="DRECase.DreNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.RollingLogNumber" class="control-label"></label>
+                <input asp-for="DRECase.RollingLogNumber" class="form-control" />
+                <span asp-validation-for="DRECase.RollingLogNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.LocationId" class="control-label"></label>
+                <input asp-for="DRECase.LocationId" class="form-control" />
+                <span asp-validation-for="DRECase.LocationId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.DepartmentId" class="control-label"></label>
+                <input asp-for="DRECase.DepartmentId" class="form-control" />
+                <span asp-validation-for="DRECase.DepartmentId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.DreRoleId" class="control-label"></label>
+                <select asp-for="DRECase.DreRoleId" class ="form-control" asp-items="ViewBag.DreRoleId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.CrashNone" class="control-label"></label>
+                <input asp-for="DRECase.CrashNone" class="form-control" />
+                <span asp-validation-for="DRECase.CrashNone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.CrashFatal" class="control-label"></label>
+                <input asp-for="DRECase.CrashFatal" class="form-control" />
+                <span asp-validation-for="DRECase.CrashFatal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.CrashInjury" class="control-label"></label>
+                <input asp-for="DRECase.CrashInjury" class="form-control" />
+                <span asp-validation-for="DRECase.CrashInjury" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.CrashProperty" class="control-label"></label>
+                <input asp-for="DRECase.CrashProperty" class="form-control" />
+                <span asp-validation-for="DRECase.CrashProperty" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.AgencyCaseNumber" class="control-label"></label>
+                <input asp-for="DRECase.AgencyCaseNumber" class="form-control" />
+                <span asp-validation-for="DRECase.AgencyCaseNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.EvaulationDate" class="control-label"></label>
+                <input asp-for="DRECase.EvaulationDate" class="form-control" />
+                <span asp-validation-for="DRECase.EvaulationDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.AssociatedCaseId" class="control-label"></label>
+                <input asp-for="DRECase.AssociatedCaseId" class="form-control" />
+                <span asp-validation-for="DRECase.AssociatedCaseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.StatusId" class="control-label"></label>
+                <select asp-for="DRECase.StatusId" class ="form-control" asp-items="ViewBag.StatusId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.DreNotifiedId" class="control-label"></label>
+                <select asp-for="DRECase.DreNotifiedId" class ="form-control" asp-items="ViewBag.DreNotifiedId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.NotifyDate" class="control-label"></label>
+                <input asp-for="DRECase.NotifyDate" class="form-control" />
+                <span asp-validation-for="DRECase.NotifyDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.NotifyTime" class="control-label"></label>
+                <input asp-for="DRECase.NotifyTime" class="form-control" />
+                <span asp-validation-for="DRECase.NotifyTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.DreRequestedId" class="control-label"></label>
+                <select asp-for="DRECase.DreRequestedId" class ="form-control" asp-items="ViewBag.DreRequestedId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.InitialObservationOfSubject" class="control-label"></label>
+                <input asp-for="DRECase.InitialObservationOfSubject" class="form-control" />
+                <span asp-validation-for="DRECase.InitialObservationOfSubject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.EvaluationAddress" class="control-label"></label>
+                <input asp-for="DRECase.EvaluationAddress" class="form-control" />
+                <span asp-validation-for="DRECase.EvaluationAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.OffenseAddress1" class="control-label"></label>
+                <input asp-for="DRECase.OffenseAddress1" class="form-control" />
+                <span asp-validation-for="DRECase.OffenseAddress1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.OffenseAddress2" class="control-label"></label>
+                <input asp-for="DRECase.OffenseAddress2" class="form-control" />
+                <span asp-validation-for="DRECase.OffenseAddress2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.OffenseCity" class="control-label"></label>
+                <input asp-for="DRECase.OffenseCity" class="form-control" />
+                <span asp-validation-for="DRECase.OffenseCity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.OffenseState" class="control-label"></label>
+                <input asp-for="DRECase.OffenseState" class="form-control" />
+                <span asp-validation-for="DRECase.OffenseState" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.OffenseCounty" class="control-label"></label>
+                <input asp-for="DRECase.OffenseCounty" class="form-control" />
+                <span asp-validation-for="DRECase.OffenseCounty" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.OffenseLat" class="control-label"></label>
+                <input asp-for="DRECase.OffenseLat" class="form-control" />
+                <span asp-validation-for="DRECase.OffenseLat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.OffenseLng" class="control-label"></label>
+                <input asp-for="DRECase.OffenseLng" class="form-control" />
+                <span asp-validation-for="DRECase.OffenseLng" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.OffenseZip" class="control-label"></label>
+                <input asp-for="DRECase.OffenseZip" class="form-control" />
+                <span asp-validation-for="DRECase.OffenseZip" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.MirandaGiven" class="control-label"></label>
+                <input asp-for="DRECase.MirandaGiven" class="form-control" />
+                <span asp-validation-for="DRECase.MirandaGiven" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.MirandaEnglish" class="control-label"></label>
+                <input asp-for="DRECase.MirandaEnglish" class="form-control" />
+                <span asp-validation-for="DRECase.MirandaEnglish" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.MirandaSpanish" class="control-label"></label>
+                <input asp-for="DRECase.MirandaSpanish" class="form-control" />
+                <span asp-validation-for="DRECase.MirandaSpanish" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.MirandaDate" class="control-label"></label>
+                <input asp-for="DRECase.MirandaDate" class="form-control" />
+                <span asp-validation-for="DRECase.MirandaDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.MirandaUnderstood" class="control-label"></label>
+                <input asp-for="DRECase.MirandaUnderstood" class="form-control" />
+                <span asp-validation-for="DRECase.MirandaUnderstood" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.MirandaGivenBy" class="control-label"></label>
+                <input asp-for="DRECase.MirandaGivenBy" class="form-control" />
+                <span asp-validation-for="DRECase.MirandaGivenBy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.EatenToday" class="control-label"></label>
+                <input asp-for="DRECase.EatenToday" class="form-control" />
+                <span asp-validation-for="DRECase.EatenToday" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.EatenWhen" class="control-label"></label>
+                <input asp-for="DRECase.EatenWhen" class="form-control" />
+                <span asp-validation-for="DRECase.EatenWhen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.DrinkingToday" class="control-label"></label>
+                <input asp-for="DRECase.DrinkingToday" class="form-control" />
+                <span asp-validation-for="DRECase.DrinkingToday" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.DrinkingHowMuch" class="control-label"></label>
+                <input asp-for="DRECase.DrinkingHowMuch" class="form-control" />
+                <span asp-validation-for="DRECase.DrinkingHowMuch" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.DrinkingTime" class="control-label"></label>
+                <input asp-for="DRECase.DrinkingTime" class="form-control" />
+                <span asp-validation-for="DRECase.DrinkingTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.DefendantTime" class="control-label"></label>
+                <input asp-for="DRECase.DefendantTime" class="form-control" />
+                <span asp-validation-for="DRECase.DefendantTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.ActualTime" class="control-label"></label>
+                <input asp-for="DRECase.ActualTime" class="form-control" />
+                <span asp-validation-for="DRECase.ActualTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.LastSleep" class="control-label"></label>
+                <input asp-for="DRECase.LastSleep" class="form-control" />
+                <span asp-validation-for="DRECase.LastSleep" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.SleepHowLong" class="control-label"></label>
+                <input asp-for="DRECase.SleepHowLong" class="form-control" />
+                <span asp-validation-for="DRECase.SleepHowLong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.SickInjured" class="control-label"></label>
+                <input asp-for="DRECase.SickInjured" class="form-control" />
+                <span asp-validation-for="DRECase.SickInjured" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.SickInjuredDesc" class="control-label"></label>
+                <input asp-for="DRECase.SickInjuredDesc" class="form-control" />
+                <span asp-validation-for="DRECase.SickInjuredDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.DiabeticEpileptic" class="control-label"></label>
+                <input asp-for="DRECase.DiabeticEpileptic" class="form-control" />
+                <span asp-validation-for="DRECase.DiabeticEpileptic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.DiabeticEpilepticDesc" class="control-label"></label>
+                <input asp-for="DRECase.DiabeticEpilepticDesc" class="form-control" />
+                <span asp-validation-for="DRECase.DiabeticEpilepticDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.Insulin" class="control-label"></label>
+                <input asp-for="DRECase.Insulin" class="form-control" />
+                <span asp-validation-for="DRECase.Insulin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.InsulinDesc" class="control-label"></label>
+                <input asp-for="DRECase.InsulinDesc" class="form-control" />
+                <span asp-validation-for="DRECase.InsulinDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.PhysicalDefects" class="control-label"></label>
+                <input asp-for="DRECase.PhysicalDefects" class="form-control" />
+                <span asp-validation-for="DRECase.PhysicalDefects" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.PhysicalDefectsDesc" class="control-label"></label>
+                <input asp-for="DRECase.PhysicalDefectsDesc" class="form-control" />
+                <span asp-validation-for="DRECase.PhysicalDefectsDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.UnderCare" class="control-label"></label>
+                <input asp-for="DRECase.UnderCare" class="form-control" />
+                <span asp-validation-for="DRECase.UnderCare" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.UnderCareDesc" class="control-label"></label>
+                <input asp-for="DRECase.UnderCareDesc" class="form-control" />
+                <span asp-validation-for="DRECase.UnderCareDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.MedicationsDrug" class="control-label"></label>
+                <input asp-for="DRECase.MedicationsDrug" class="form-control" />
+                <span asp-validation-for="DRECase.MedicationsDrug" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.MedicationsDrugDesc" class="control-label"></label>
+                <input asp-for="DRECase.MedicationsDrugDesc" class="form-control" />
+                <span asp-validation-for="DRECase.MedicationsDrugDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.PulseRate1" class="control-label"></label>
+                <input asp-for="DRECase.PulseRate1" class="form-control" />
+                <span asp-validation-for="DRECase.PulseRate1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.PulseSite1" class="control-label"></label>
+                <input asp-for="DRECase.PulseSite1" class="form-control" />
+                <span asp-validation-for="DRECase.PulseSite1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.PulseTime1" class="control-label"></label>
+                <input asp-for="DRECase.PulseTime1" class="form-control" />
+                <span asp-validation-for="DRECase.PulseTime1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.PulseRate2" class="control-label"></label>
+                <input asp-for="DRECase.PulseRate2" class="form-control" />
+                <span asp-validation-for="DRECase.PulseRate2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.PulseSite2" class="control-label"></label>
+                <input asp-for="DRECase.PulseSite2" class="form-control" />
+                <span asp-validation-for="DRECase.PulseSite2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.PulseTime2" class="control-label"></label>
+                <input asp-for="DRECase.PulseTime2" class="form-control" />
+                <span asp-validation-for="DRECase.PulseTime2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.PulseRate3" class="control-label"></label>
+                <input asp-for="DRECase.PulseRate3" class="form-control" />
+                <span asp-validation-for="DRECase.PulseRate3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.PulseSite3" class="control-label"></label>
+                <input asp-for="DRECase.PulseSite3" class="form-control" />
+                <span asp-validation-for="DRECase.PulseSite3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.PulseTime3" class="control-label"></label>
+                <input asp-for="DRECase.PulseTime3" class="form-control" />
+                <span asp-validation-for="DRECase.PulseTime3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.InitialAngleNystagums" class="control-label"></label>
+                <input asp-for="DRECase.InitialAngleNystagums" class="form-control" />
+                <span asp-validation-for="DRECase.InitialAngleNystagums" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.InitialPupilSizeL" class="control-label"></label>
+                <input asp-for="DRECase.InitialPupilSizeL" class="form-control" />
+                <span asp-validation-for="DRECase.InitialPupilSizeL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DRECase.InitialPupilSizeR" class="control-label"></label>
+                <input asp-for="DRECase.InitialPupilSizeR" class="form-control" />
+                <span asp-validation-for="DRECase.InitialPupilSizeR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,43 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE._OPT.DREMajorIndicators.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>DreMajorIndicator</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreMajorIndicator.IndTypeId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreMajorIndicator.IndTypeId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreMajorIndicator.ColumnName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreMajorIndicator.ColumnName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreMajorIndicator.ValueToDisplay)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreMajorIndicator.ValueToDisplay)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreMajorIndicator.Note)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreMajorIndicator.Note)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.DreMajorIndicator?.DreMajorIndicatorId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

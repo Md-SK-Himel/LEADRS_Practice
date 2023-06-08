@@ -1,0 +1,306 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Wts.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].ActualSteps1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].ActualSteps2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].BodyTremos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].CannotBalance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].EyelidsTremos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].ImproperTurn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].LegTremos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].MissHellToe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].MuscleTensions)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].RaisesArms)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].OtherComments)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].SO_LL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].SO_LR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].SO_RL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].SO_RR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].Sounds)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].StartsSoon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].StepOffLine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].StopsWalking)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].Swaying)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].UnableToPerform)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].UnserstoodInstructions)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WalkTurnGiven)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WrongNumberSteps)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WTMissesFirstNine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WTMissesSecondNine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WTNAFirstNine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WTNASecondNine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WTOther)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WTRaisesFirstNine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WTRaisesSecondNine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WTStepCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WTStepCountSecond)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WTStepsLeftFirstNine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WTStepsLeftSecondNine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WTStepsRightFirstNine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WTStepsRightSecondNine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WTStopsFirstNine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WTStopsSecondNine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WTTakensFirstNine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WTTakenSecondNine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WalkTurnNoTest)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].WalkTurnDescribeTurn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].OLSComments)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].OLSStarts)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseWalkTurn[0].DreCaseId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreCaseWalkTurn) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActualSteps1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActualSteps2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BodyTremos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CannotBalance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EyelidsTremos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImproperTurn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LegTremos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MissHellToe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MuscleTensions)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RaisesArms)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OtherComments)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SO_LL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SO_LR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SO_RL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SO_RR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sounds)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartsSoon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StepOffLine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StopsWalking)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Swaying)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnableToPerform)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnserstoodInstructions)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WalkTurnGiven)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WrongNumberSteps)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WTMissesFirstNine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WTMissesSecondNine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WTNAFirstNine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WTNASecondNine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WTOther)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WTRaisesFirstNine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WTRaisesSecondNine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WTStepCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WTStepCountSecond)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WTStepsLeftFirstNine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WTStepsLeftSecondNine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WTStepsRightFirstNine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WTStepsRightSecondNine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WTStopsFirstNine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WTStopsSecondNine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WTTakensFirstNine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WTTakenSecondNine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WalkTurnNoTest)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WalkTurnDescribeTurn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OLSComments)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OLSStarts)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreCaseId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DreCaseWTId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DreCaseWTId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DreCaseWTId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

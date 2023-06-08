@@ -1,0 +1,470 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Obs.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DreCaseObservations</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DreCaseObservations.DreCaseObservationsId" />
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeCooperative" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeCooperative" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeCooperative" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeCombative" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeCombative" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeCombative" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeIndifferent" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeIndifferent" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeIndifferent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeCocky" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeCocky" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeCocky" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeApologetic" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeApologetic" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeApologetic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeRestless" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeRestless" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeRestless" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeDisoriented" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeDisoriented" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeDisoriented" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeAnxious" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeAnxious" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeAnxious" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeRelaxed" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeRelaxed" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeRelaxed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeCareFree" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeCareFree" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeCareFree" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeConfused" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeConfused" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeConfused" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeDazed" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeDazed" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeDazed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeParanoid" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeParanoid" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeParanoid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeTalkative" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeTalkative" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeTalkative" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeUninhibited" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeUninhibited" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeUninhibited" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeExcited" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeExcited" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeExcited" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudePassive" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudePassive" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudePassive" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeNonCommunicative" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeNonCommunicative" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeNonCommunicative" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.AttitudeOther" class="control-label"></label>
+                <input asp-for="DreCaseObservations.AttitudeOther" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.AttitudeOther" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BalanceSwaying" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BalanceSwaying" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BalanceSwaying" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BalanceUnsteady" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BalanceUnsteady" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BalanceUnsteady" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BalanceNeededSupport" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BalanceNeededSupport" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BalanceNeededSupport" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BalanceFallingDown" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BalanceFallingDown" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BalanceFallingDown" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BalanceNormal" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BalanceNormal" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BalanceNormal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BalancePoor" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BalancePoor" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BalancePoor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BalanceSlow" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BalanceSlow" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BalanceSlow" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BalanceUncoordinated" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BalanceUncoordinated" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BalanceUncoordinated" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BalanceSluggish" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BalanceSluggish" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BalanceSluggish" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BalanceDepressedReflexes" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BalanceDepressedReflexes" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BalanceDepressedReflexes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BalanceMoonWalking" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BalanceMoonWalking" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BalanceMoonWalking" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.SpeechSlurred" class="control-label"></label>
+                <input asp-for="DreCaseObservations.SpeechSlurred" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.SpeechSlurred" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.SpeechIncoherent" class="control-label"></label>
+                <input asp-for="DreCaseObservations.SpeechIncoherent" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.SpeechIncoherent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.SpeechThickTongued" class="control-label"></label>
+                <input asp-for="DreCaseObservations.SpeechThickTongued" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.SpeechThickTongued" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.SpeechSlowMumbled" class="control-label"></label>
+                <input asp-for="DreCaseObservations.SpeechSlowMumbled" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.SpeechSlowMumbled" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.SpeechNormal" class="control-label"></label>
+                <input asp-for="DreCaseObservations.SpeechNormal" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.SpeechNormal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.SpeechSlow" class="control-label"></label>
+                <input asp-for="DreCaseObservations.SpeechSlow" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.SpeechSlow" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.SpeechLow" class="control-label"></label>
+                <input asp-for="DreCaseObservations.SpeechLow" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.SpeechLow" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.SpeechRaspy" class="control-label"></label>
+                <input asp-for="DreCaseObservations.SpeechRaspy" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.SpeechRaspy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.SpeechRapidFast" class="control-label"></label>
+                <input asp-for="DreCaseObservations.SpeechRapidFast" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.SpeechRapidFast" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.SpeechIncompleteVerbalResposes" class="control-label"></label>
+                <input asp-for="DreCaseObservations.SpeechIncompleteVerbalResposes" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.SpeechIncompleteVerbalResposes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.SpeechOther" class="control-label"></label>
+                <input asp-for="DreCaseObservations.SpeechOther" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.SpeechOther" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.WalkingStaggering" class="control-label"></label>
+                <input asp-for="DreCaseObservations.WalkingStaggering" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.WalkingStaggering" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.WalkingFalling" class="control-label"></label>
+                <input asp-for="DreCaseObservations.WalkingFalling" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.WalkingFalling" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.WalkingHeavyFooted" class="control-label"></label>
+                <input asp-for="DreCaseObservations.WalkingHeavyFooted" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.WalkingHeavyFooted" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.WalkingSwaying" class="control-label"></label>
+                <input asp-for="DreCaseObservations.WalkingSwaying" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.WalkingSwaying" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.WalkingNormal" class="control-label"></label>
+                <input asp-for="DreCaseObservations.WalkingNormal" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.WalkingNormal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BreathNormal" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BreathNormal" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BreathNormal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BreathAlcohol" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BreathAlcohol" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BreathAlcohol" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BreathMarijuana" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BreathMarijuana" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BreathMarijuana" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BreathChemical" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BreathChemical" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BreathChemical" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BreathBad" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BreathBad" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BreathBad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BreathOther" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BreathOther" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BreathOther" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.FaceFlushed" class="control-label"></label>
+                <input asp-for="DreCaseObservations.FaceFlushed" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.FaceFlushed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.FacePale" class="control-label"></label>
+                <input asp-for="DreCaseObservations.FacePale" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.FacePale" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.FaceNormal" class="control-label"></label>
+                <input asp-for="DreCaseObservations.FaceNormal" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.FaceNormal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.FaceScars" class="control-label"></label>
+                <input asp-for="DreCaseObservations.FaceScars" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.FaceScars" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.FaceOpenSores" class="control-label"></label>
+                <input asp-for="DreCaseObservations.FaceOpenSores" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.FaceOpenSores" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.FaceInjuries" class="control-label"></label>
+                <input asp-for="DreCaseObservations.FaceInjuries" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.FaceInjuries" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.FaceFacialItching" class="control-label"></label>
+                <input asp-for="DreCaseObservations.FaceFacialItching" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.FaceFacialItching" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.FaceBlankStare" class="control-label"></label>
+                <input asp-for="DreCaseObservations.FaceBlankStare" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.FaceBlankStare" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.FaceDazedAppearance" class="control-label"></label>
+                <input asp-for="DreCaseObservations.FaceDazedAppearance" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.FaceDazedAppearance" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.FaceSryMouth" class="control-label"></label>
+                <input asp-for="DreCaseObservations.FaceSryMouth" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.FaceSryMouth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.FaceBruxism" class="control-label"></label>
+                <input asp-for="DreCaseObservations.FaceBruxism" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.FaceBruxism" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.FaceOnTheNod" class="control-label"></label>
+                <input asp-for="DreCaseObservations.FaceOnTheNod" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.FaceOnTheNod" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.FaceResidueOfSubstance" class="control-label"></label>
+                <input asp-for="DreCaseObservations.FaceResidueOfSubstance" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.FaceResidueOfSubstance" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.FaceSweatyPerspiring" class="control-label"></label>
+                <input asp-for="DreCaseObservations.FaceSweatyPerspiring" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.FaceSweatyPerspiring" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.FaceDryMouth" class="control-label"></label>
+                <input asp-for="DreCaseObservations.FaceDryMouth" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.FaceDryMouth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.FaceOther" class="control-label"></label>
+                <input asp-for="DreCaseObservations.FaceOther" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.FaceOther" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.LensesNone" class="control-label"></label>
+                <input asp-for="DreCaseObservations.LensesNone" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.LensesNone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.Glasses" class="control-label"></label>
+                <input asp-for="DreCaseObservations.Glasses" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.Glasses" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.Contacts" class="control-label"></label>
+                <input asp-for="DreCaseObservations.Contacts" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.Contacts" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.ContactsSoft" class="control-label"></label>
+                <input asp-for="DreCaseObservations.ContactsSoft" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.ContactsSoft" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.ContactsHard" class="control-label"></label>
+                <input asp-for="DreCaseObservations.ContactsHard" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.ContactsHard" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.EyesRed" class="control-label"></label>
+                <input asp-for="DreCaseObservations.EyesRed" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.EyesRed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.EyesWatery" class="control-label"></label>
+                <input asp-for="DreCaseObservations.EyesWatery" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.EyesWatery" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.EyesBloodShot" class="control-label"></label>
+                <input asp-for="DreCaseObservations.EyesBloodShot" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.EyesBloodShot" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.EyesNormal" class="control-label"></label>
+                <input asp-for="DreCaseObservations.EyesNormal" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.EyesNormal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BlindnessNone" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BlindnessNone" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BlindnessNone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BlindnessLeft" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BlindnessLeft" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BlindnessLeft" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BlindnessRight" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BlindnessRight" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BlindnessRight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.BlindnessComment" class="control-label"></label>
+                <input asp-for="DreCaseObservations.BlindnessComment" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.BlindnessComment" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.EyelidsNormal" class="control-label"></label>
+                <input asp-for="DreCaseObservations.EyelidsNormal" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.EyelidsNormal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.EyelidsDroopy" class="control-label"></label>
+                <input asp-for="DreCaseObservations.EyelidsDroopy" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.EyelidsDroopy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.TrackingEqual" class="control-label"></label>
+                <input asp-for="DreCaseObservations.TrackingEqual" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.TrackingEqual" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.TrackingUnequal" class="control-label"></label>
+                <input asp-for="DreCaseObservations.TrackingUnequal" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.TrackingUnequal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.TrackingUnequalDesc" class="control-label"></label>
+                <input asp-for="DreCaseObservations.TrackingUnequalDesc" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.TrackingUnequalDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.CoordinationOther" class="control-label"></label>
+                <input asp-for="DreCaseObservations.CoordinationOther" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.CoordinationOther" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseObservations.DreCaseId" class="control-label"></label>
+                <input asp-for="DreCaseObservations.DreCaseId" class="form-control" />
+                <span asp-validation-for="DreCaseObservations.DreCaseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

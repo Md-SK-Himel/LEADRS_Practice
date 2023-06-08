@@ -1,0 +1,90 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE._OPT.DREFirstIndicators.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseFirstIndicator[0].IndType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseFirstIndicator[0].CnsDep)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseFirstIndicator[0].CnsSti)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseFirstIndicator[0].HALL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseFirstIndicator[0].DisAne)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseFirstIndicator[0].NarAna)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseFirstIndicator[0].INHA)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseFirstIndicator[0].CANN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseFirstIndicator[0].IndTypeFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseFirstIndicator[0].DisplayName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreCaseFirstIndicator) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IndType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CnsDep)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CnsSti)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HALL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DisAne)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NarAna)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.INHA)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CANN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IndTypeFullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DisplayName)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DreCaseFirstIndicatorId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DreCaseFirstIndicatorId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DreCaseFirstIndicatorId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

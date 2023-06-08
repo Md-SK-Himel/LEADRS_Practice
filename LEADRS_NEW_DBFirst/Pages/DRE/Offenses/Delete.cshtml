@@ -1,0 +1,124 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Offenses.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>DreCaseOffense</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseOffense.Charged)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseOffense.Charged)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseOffense.DWI)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseOffense.DWI)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseOffense.OffenseId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseOffense.OffenseId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseOffense.RecklessDriving)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseOffense.RecklessDriving)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseOffense.PublicIntox)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseOffense.PublicIntox)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseOffense.Theft)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseOffense.Theft)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseOffense.TheftCharged)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseOffense.TheftCharged)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseOffense.Assault)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseOffense.Assault)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseOffense.AssaultCharged)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseOffense.AssaultCharged)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseOffense.Possession)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseOffense.Possession)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseOffense.PossessionCharged)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseOffense.PossessionCharged)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseOffense.Other)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseOffense.Other)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseOffense.OtherCharged)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseOffense.OtherCharged)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseOffense.CrashId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseOffense.CrashId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseOffense.InjuryId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseOffense.InjuryId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseOffense.NoChargeComment)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseOffense.NoChargeComment)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseOffense.DreCaseId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseOffense.DreCaseId)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="DreCaseOffense.DreCaseOffenseId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

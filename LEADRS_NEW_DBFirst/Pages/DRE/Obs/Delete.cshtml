@@ -1,0 +1,550 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Obs.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>DreCaseObservations</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeCooperative)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeCooperative)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeCombative)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeCombative)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeIndifferent)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeIndifferent)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeCocky)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeCocky)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeApologetic)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeApologetic)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeRestless)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeRestless)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeDisoriented)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeDisoriented)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeAnxious)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeAnxious)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeRelaxed)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeRelaxed)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeCareFree)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeCareFree)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeConfused)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeConfused)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeDazed)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeDazed)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeParanoid)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeParanoid)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeTalkative)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeTalkative)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeUninhibited)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeUninhibited)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeExcited)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeExcited)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudePassive)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudePassive)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeNonCommunicative)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeNonCommunicative)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.AttitudeOther)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.AttitudeOther)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BalanceSwaying)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BalanceSwaying)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BalanceUnsteady)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BalanceUnsteady)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BalanceNeededSupport)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BalanceNeededSupport)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BalanceFallingDown)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BalanceFallingDown)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BalanceNormal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BalanceNormal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BalancePoor)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BalancePoor)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BalanceSlow)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BalanceSlow)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BalanceUncoordinated)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BalanceUncoordinated)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BalanceSluggish)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BalanceSluggish)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BalanceDepressedReflexes)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BalanceDepressedReflexes)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BalanceMoonWalking)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BalanceMoonWalking)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.SpeechSlurred)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.SpeechSlurred)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.SpeechIncoherent)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.SpeechIncoherent)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.SpeechThickTongued)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.SpeechThickTongued)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.SpeechSlowMumbled)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.SpeechSlowMumbled)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.SpeechNormal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.SpeechNormal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.SpeechSlow)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.SpeechSlow)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.SpeechLow)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.SpeechLow)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.SpeechRaspy)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.SpeechRaspy)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.SpeechRapidFast)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.SpeechRapidFast)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.SpeechIncompleteVerbalResposes)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.SpeechIncompleteVerbalResposes)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.SpeechOther)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.SpeechOther)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.WalkingStaggering)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.WalkingStaggering)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.WalkingFalling)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.WalkingFalling)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.WalkingHeavyFooted)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.WalkingHeavyFooted)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.WalkingSwaying)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.WalkingSwaying)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.WalkingNormal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.WalkingNormal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BreathNormal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BreathNormal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BreathAlcohol)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BreathAlcohol)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BreathMarijuana)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BreathMarijuana)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BreathChemical)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BreathChemical)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BreathBad)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BreathBad)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BreathOther)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BreathOther)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.FaceFlushed)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.FaceFlushed)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.FacePale)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.FacePale)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.FaceNormal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.FaceNormal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.FaceScars)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.FaceScars)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.FaceOpenSores)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.FaceOpenSores)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.FaceInjuries)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.FaceInjuries)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.FaceFacialItching)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.FaceFacialItching)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.FaceBlankStare)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.FaceBlankStare)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.FaceDazedAppearance)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.FaceDazedAppearance)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.FaceSryMouth)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.FaceSryMouth)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.FaceBruxism)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.FaceBruxism)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.FaceOnTheNod)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.FaceOnTheNod)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.FaceResidueOfSubstance)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.FaceResidueOfSubstance)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.FaceSweatyPerspiring)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.FaceSweatyPerspiring)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.FaceDryMouth)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.FaceDryMouth)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.FaceOther)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.FaceOther)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.LensesNone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.LensesNone)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.Glasses)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.Glasses)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.Contacts)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.Contacts)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.ContactsSoft)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.ContactsSoft)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.ContactsHard)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.ContactsHard)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.EyesRed)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.EyesRed)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.EyesWatery)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.EyesWatery)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.EyesBloodShot)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.EyesBloodShot)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.EyesNormal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.EyesNormal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BlindnessNone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BlindnessNone)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BlindnessLeft)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BlindnessLeft)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BlindnessRight)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BlindnessRight)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.BlindnessComment)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.BlindnessComment)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.EyelidsNormal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.EyelidsNormal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.EyelidsDroopy)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.EyelidsDroopy)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.TrackingEqual)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.TrackingEqual)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.TrackingUnequal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.TrackingUnequal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.TrackingUnequalDesc)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.TrackingUnequalDesc)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.CoordinationOther)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.CoordinationOther)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseObservations.DreCaseId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseObservations.DreCaseId)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="DreCaseObservations.DreCaseObservationsId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to List</a>
+    </form>
+</div>

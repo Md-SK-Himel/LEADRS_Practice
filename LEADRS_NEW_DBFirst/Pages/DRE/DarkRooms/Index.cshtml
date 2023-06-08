@@ -1,0 +1,228 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.DarkRooms.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].LightL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].LightR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].DarkL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].DarkR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].DirectL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].DirectR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].ReboundY)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].ReboundN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].HippusObserveD)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].LightReaction)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].NasalAreaClear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].NasalAreaRed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].NasalAreableeding)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].NasalAreadeviated)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].NasalAreawhite)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].NasalAreaother)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].NasalAreaothertxt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].OralCavityclear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].OralCavityRaised)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].OralCavityMarijuana)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].OralCavityDry)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].OralCavityRotten)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].OralCavityGreen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].OralCavityMissing)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].OralCavityOther)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].OralCavityOtherText)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].ReactionToLightId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].ReboundStartL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].ReboundEndL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].ReboundStartR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].ReboundEndR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].UvLight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseDarkRoom[0].DreCaseId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreCaseDarkRoom) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LightL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LightR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DarkL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DarkR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DirectL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DirectR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReboundY)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReboundN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HippusObserveD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LightReaction)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NasalAreaClear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NasalAreaRed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NasalAreableeding)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NasalAreadeviated)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NasalAreawhite)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NasalAreaother)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NasalAreaothertxt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OralCavityclear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OralCavityRaised)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OralCavityMarijuana)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OralCavityDry)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OralCavityRotten)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OralCavityGreen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OralCavityMissing)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OralCavityOther)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OralCavityOtherText)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReactionToLightId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReboundStartL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReboundEndL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReboundStartR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReboundEndR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UvLight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreCaseId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DreCaseDarkRoomId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DreCaseDarkRoomId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DreCaseDarkRoomId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

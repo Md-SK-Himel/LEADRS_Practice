@@ -1,0 +1,210 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.AoInterviews.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DreCaseArrestingOfficerInterview</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DreCaseArrestingOfficerInterview.InterviewId" />
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.DateTimeOfArrest" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.DateTimeOfArrest" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.DateTimeOfArrest" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.OfficerInterview" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.OfficerInterview" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.OfficerInterview" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectOpertingVehicle" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectOpertingVehicle" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectOpertingVehicle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectOpertingVehicleDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectOpertingVehicleDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectOpertingVehicleDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectDrivingVehicleDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectDrivingVehicleDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectDrivingVehicleDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectVehicleCrashed" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectVehicleCrashed" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectVehicleCrashed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectVehicleCrashedDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectVehicleCrashedDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectVehicleCrashedDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectSeenSmokeDrink" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectSeenSmokeDrink" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectSeenSmokeDrink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectSeenSmokeDrinkDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectSeenSmokeDrinkDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectSeenSmokeDrinkDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectInhalingSubstance" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectInhalingSubstance" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectInhalingSubstance" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectInhalingSubstanceDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectInhalingSubstanceDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectInhalingSubstanceDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectRespondingStopDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectRespondingStopDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectRespondingStopDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectTryConcealOrThrowMaterial" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectTryConcealOrThrowMaterial" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectTryConcealOrThrowMaterial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectTryConcealOrThrowMaterialDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectTryConcealOrThrowMaterialDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectTryConcealOrThrowMaterialDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectAttitudeDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectAttitudeDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectAttitudeDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectAttitudCompareDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectAttitudCompareDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectAttitudCompareDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectComplainedInjury" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectComplainedInjury" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectComplainedInjury" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectComplainedInjuryDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectComplainedInjuryDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectComplainedInjuryDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectUsedSteetNameDrug" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectUsedSteetNameDrug" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectUsedSteetNameDrug" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectUsedSteetNameDrugDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectUsedSteetNameDrugDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectUsedSteetNameDrugDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectRespondToOfficer" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectRespondToOfficer" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectRespondToOfficer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectSpeechAppearSlurred" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectSpeechAppearSlurred" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectSpeechAppearSlurred" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectSpeechAppearSlurredDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectSpeechAppearSlurredDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectSpeechAppearSlurredDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectMentionPrescription" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectMentionPrescription" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectMentionPrescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectMentionPrescriptionDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectMentionPrescriptionDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectMentionPrescriptionDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectFoundMaterial" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectFoundMaterial" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectFoundMaterial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectFoundMaterialDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectFoundMaterialDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectFoundMaterialDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectFoundInjectionMaterial" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectFoundInjectionMaterial" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectFoundInjectionMaterial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectFoundInjectionMaterialDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectFoundInjectionMaterialDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectFoundInjectionMaterialDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectFoundBallonPlastic" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectFoundBallonPlastic" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectFoundBallonPlastic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectFoundBallonPlasticDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectFoundBallonPlasticDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectFoundBallonPlasticDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectFoundDrugResidue" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectFoundDrugResidue" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectFoundDrugResidue" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectFoundDrugResidueDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectFoundDrugResidueDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectFoundDrugResidueDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectFoundPrescriptionBottles" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectFoundPrescriptionBottles" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectFoundPrescriptionBottles" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.SubjectFoundPrescriptionBottlesDesc" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.SubjectFoundPrescriptionBottlesDesc" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.SubjectFoundPrescriptionBottlesDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerInterview.DreCaseId" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerInterview.DreCaseId" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerInterview.DreCaseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

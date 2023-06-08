@@ -1,0 +1,306 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.IntoxilyzerReports.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].ProvidedBreath)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].ProvidedBlood)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].ProvidedUrine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].ProvidedSaliva)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].AttemptedBreath)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].AttemptedBlood)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].AttemptedUrine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].AttemptedSaliva)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].RefusedBreath)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].RefusedBlood)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].RefusedUrine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].RefusedSaliva)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BloodTaken)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BreathDateGiven)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BreathBeginWait)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BreathVerifytempId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BreathSubjectComments)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BreathIntoxOperatorL5)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BreathOperatorName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BreathOperatorAgency)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BreathRecordNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BreathSerialNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BreathResult1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BreathResult1Time)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BreathResult2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BreathResult2Time)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BreathMoreLessIntoxIdL5)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BloodVials)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BloodNamePwd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BloodEmployerPwd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BloodEmployedIdPwd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BloodPhonePwd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BloodLocationBwd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BloodDatetimeSpecimenExtractedBwd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BloodDescriptionBwd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BloodMoreLessIntoxId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BloodPreservative)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BloodNoAlcohol)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].BloodRotated)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].UrineDreObserved)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].UrineWhoObserved)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].UrineToxScreenPerformed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].SalivaDreObserved)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].SalivaWhoObserved)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].SalivaToxScreenPerformed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseIntoxilyzerReport[0].DreCaseId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreCaseIntoxilyzerReport) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProvidedBreath)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProvidedBlood)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProvidedUrine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProvidedSaliva)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttemptedBreath)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttemptedBlood)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttemptedUrine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttemptedSaliva)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RefusedBreath)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RefusedBlood)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RefusedUrine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RefusedSaliva)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BloodTaken)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathDateGiven)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathBeginWait)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathVerifytempId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathSubjectComments)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathIntoxOperatorL5)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathOperatorName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathOperatorAgency)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathRecordNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathSerialNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathResult1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathResult1Time)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathResult2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathResult2Time)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathMoreLessIntoxIdL5)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BloodVials)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BloodNamePwd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BloodEmployerPwd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BloodEmployedIdPwd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BloodPhonePwd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BloodLocationBwd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BloodDatetimeSpecimenExtractedBwd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BloodDescriptionBwd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BloodMoreLessIntoxId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BloodPreservative)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BloodNoAlcohol)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BloodRotated)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UrineDreObserved)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UrineWhoObserved)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UrineToxScreenPerformed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SalivaDreObserved)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SalivaWhoObserved)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SalivaToxScreenPerformed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreCaseId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DreCaseIntoxilyzerReportId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DreCaseIntoxilyzerReportId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DreCaseIntoxilyzerReportId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

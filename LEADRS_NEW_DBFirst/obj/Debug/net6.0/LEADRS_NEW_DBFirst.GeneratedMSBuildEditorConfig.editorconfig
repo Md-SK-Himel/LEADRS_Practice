@@ -1,0 +1,825 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LEADRS_NEW_DBFirst
+build_property.RootNamespace = LEADRS_NEW_DBFirst
+build_property.ProjectDir = C:\Users\BS358\Documents\Projects\LEADRS_NEW_DBFirst\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\BS358\Documents\Projects\LEADRS_NEW_DBFirst
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/AoFsts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEFvRnN0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/AoFsts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEFvRnN0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/AoFsts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEFvRnN0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/AoFsts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEFvRnN0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/AoFsts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEFvRnN0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/AoInterviews/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEFvSW50ZXJ2aWV3c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/AoInterviews/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEFvSW50ZXJ2aWV3c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/AoInterviews/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEFvSW50ZXJ2aWV3c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/AoInterviews/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEFvSW50ZXJ2aWV3c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/AoInterviews/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEFvSW50ZXJ2aWV3c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/AoObs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEFvT2JzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/AoObs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEFvT2JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/AoObs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEFvT2JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/AoObs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEFvT2JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/AoObs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEFvT2JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Cases/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXENhc2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Cases/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXENhc2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Cases/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXENhc2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Cases/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXENhc2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Cases/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXENhc2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/DarkRooms/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXERhcmtSb29tc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/DarkRooms/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXERhcmtSb29tc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/DarkRooms/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXERhcmtSb29tc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/DarkRooms/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXERhcmtSb29tc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/DarkRooms/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXERhcmtSb29tc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Defendants/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXERlZmVuZGFudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Defendants/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXERlZmVuZGFudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Defendants/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXERlZmVuZGFudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Defendants/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXERlZmVuZGFudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Defendants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXERlZmVuZGFudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Ftns/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEZ0bnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Ftns/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEZ0bnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Ftns/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEZ0bnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Ftns/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEZ0bnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Ftns/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEZ0bnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Hgns/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEhnbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Hgns/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEhnbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Hgns/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEhnbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Hgns/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEhnbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Hgns/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEhnbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Images/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEltYWdlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Images/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEltYWdlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Images/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEltYWdlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Images/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEltYWdlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Images/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEltYWdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Indicators/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEluZGljYXRvcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Indicators/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEluZGljYXRvcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Indicators/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEluZGljYXRvcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Indicators/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEluZGljYXRvcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Indicators/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEluZGljYXRvcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/IntoxilyzerReports/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEludG94aWx5emVyUmVwb3J0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/IntoxilyzerReports/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEludG94aWx5emVyUmVwb3J0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/IntoxilyzerReports/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEludG94aWx5emVyUmVwb3J0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/IntoxilyzerReports/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEludG94aWx5emVyUmVwb3J0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/IntoxilyzerReports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEludG94aWx5emVyUmVwb3J0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/IntoxSalivaScreens/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEludG94U2FsaXZhU2NyZWVuc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/IntoxSalivaScreens/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEludG94U2FsaXZhU2NyZWVuc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/IntoxSalivaScreens/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEludG94U2FsaXZhU2NyZWVuc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/IntoxSalivaScreens/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEludG94U2FsaXZhU2NyZWVuc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/IntoxSalivaScreens/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEludG94U2FsaXZhU2NyZWVuc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/IntoxUrineScreens/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEludG94VXJpbmVTY3JlZW5zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/IntoxUrineScreens/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEludG94VXJpbmVTY3JlZW5zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/IntoxUrineScreens/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEludG94VXJpbmVTY3JlZW5zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/IntoxUrineScreens/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEludG94VXJpbmVTY3JlZW5zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/IntoxUrineScreens/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXEludG94VXJpbmVTY3JlZW5zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Notes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE5vdGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Notes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE5vdGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Notes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE5vdGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Notes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE5vdGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Notes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE5vdGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/NoteTypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE5vdGVUeXBlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/NoteTypes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE5vdGVUeXBlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/NoteTypes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE5vdGVUeXBlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/NoteTypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE5vdGVUeXBlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/NoteTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE5vdGVUeXBlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Obs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE9ic1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Obs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE9ic1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Obs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE9ic1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Obs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE9ic1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Obs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE9ic1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Offenses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE9mZmVuc2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Offenses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE9mZmVuc2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Offenses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE9mZmVuc2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Offenses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE9mZmVuc2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Offenses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE9mZmVuc2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Ols/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE9sc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Ols/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE9sc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Ols/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE9sc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Ols/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE9sc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Ols/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE9sc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/OtherObservations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE90aGVyT2JzZXJ2YXRpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/OtherObservations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE90aGVyT2JzZXJ2YXRpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/OtherObservations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE90aGVyT2JzZXJ2YXRpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/OtherObservations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE90aGVyT2JzZXJ2YXRpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/OtherObservations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE90aGVyT2JzZXJ2YXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/OtherOfficers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE90aGVyT2ZmaWNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/OtherOfficers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE90aGVyT2ZmaWNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/OtherOfficers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE90aGVyT2ZmaWNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/OtherOfficers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE90aGVyT2ZmaWNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/OtherOfficers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXE90aGVyT2ZmaWNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Pages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFBhZ2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Pages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFBhZ2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Pages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFBhZ2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Pages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFBhZ2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFBhZ2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Pics/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFBpY3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Pics/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFBpY3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Pics/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFBpY3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Pics/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFBpY3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Pics/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFBpY3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Rbs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFJic1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Rbs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFJic1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Rbs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFJic1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Rbs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFJic1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Rbs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFJic1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/ToxicologyDrugs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFRveGljb2xvZ3lEcnVnc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/ToxicologyDrugs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFRveGljb2xvZ3lEcnVnc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/ToxicologyDrugs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFRveGljb2xvZ3lEcnVnc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/ToxicologyDrugs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFRveGljb2xvZ3lEcnVnc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/ToxicologyDrugs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFRveGljb2xvZ3lEcnVnc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/ToxSpecs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFRveFNwZWNzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/ToxSpecs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFRveFNwZWNzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/ToxSpecs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFRveFNwZWNzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/ToxSpecs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFRveFNwZWNzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/ToxSpecs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFRveFNwZWNzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Videos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFZpZGVvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Videos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFZpZGVvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Videos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFZpZGVvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Videos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFZpZGVvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Videos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFZpZGVvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/VitalSigns/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFZpdGFsU2lnbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/VitalSigns/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFZpdGFsU2lnbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/VitalSigns/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFZpdGFsU2lnbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/VitalSigns/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFZpdGFsU2lnbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/VitalSigns/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFZpdGFsU2lnbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Wts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFd0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Wts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFd0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Wts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFd0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Wts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFd0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/Wts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXFd0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/CaseStatuses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcQ2FzZVN0YXR1c2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/CaseStatuses/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcQ2FzZVN0YXR1c2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/CaseStatuses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcQ2FzZVN0YXR1c2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/CaseStatuses/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcQ2FzZVN0YXR1c2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/CaseStatuses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcQ2FzZVN0YXR1c2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DpsDrugLists/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRHBzRHJ1Z0xpc3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DpsDrugLists/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRHBzRHJ1Z0xpc3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DpsDrugLists/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRHBzRHJ1Z0xpc3RzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DpsDrugLists/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRHBzRHJ1Z0xpc3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DpsDrugLists/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRHBzRHJ1Z0xpc3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DREFirstIndicators/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFRmlyc3RJbmRpY2F0b3JzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DREFirstIndicators/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFRmlyc3RJbmRpY2F0b3JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DREFirstIndicators/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFRmlyc3RJbmRpY2F0b3JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DREFirstIndicators/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFRmlyc3RJbmRpY2F0b3JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DREFirstIndicators/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFRmlyc3RJbmRpY2F0b3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DREMajorIndicators/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFTWFqb3JJbmRpY2F0b3JzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DREMajorIndicators/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFTWFqb3JJbmRpY2F0b3JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DREMajorIndicators/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFTWFqb3JJbmRpY2F0b3JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DREMajorIndicators/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFTWFqb3JJbmRpY2F0b3JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DREMajorIndicators/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFTWFqb3JJbmRpY2F0b3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRENotified/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFTm90aWZpZWRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRENotified/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFTm90aWZpZWRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRENotified/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFTm90aWZpZWRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRENotified/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFTm90aWZpZWRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRENotified/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFTm90aWZpZWRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DREReactionToLight/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFUmVhY3Rpb25Ub0xpZ2h0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DREReactionToLight/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFUmVhY3Rpb25Ub0xpZ2h0XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DREReactionToLight/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFUmVhY3Rpb25Ub0xpZ2h0XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DREReactionToLight/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFUmVhY3Rpb25Ub0xpZ2h0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DREReactionToLight/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFUmVhY3Rpb25Ub0xpZ2h0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRERequested/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFUmVxdWVzdGVkXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRERequested/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFUmVxdWVzdGVkXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRERequested/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFUmVxdWVzdGVkXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRERequested/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFUmVxdWVzdGVkXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRERequested/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFUmVxdWVzdGVkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRERoles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFUm9sZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRERoles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFUm9sZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRERoles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFUm9sZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRERoles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFUm9sZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRERoles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRESecondIndicators/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFU2Vjb25kSW5kaWNhdG9yc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRESecondIndicators/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFU2Vjb25kSW5kaWNhdG9yc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRESecondIndicators/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFU2Vjb25kSW5kaWNhdG9yc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRESecondIndicators/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFU2Vjb25kSW5kaWNhdG9yc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRESecondIndicators/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFU2Vjb25kSW5kaWNhdG9yc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRETypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFVHlwZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRETypes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFVHlwZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRETypes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFVHlwZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRETypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFVHlwZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/DRETypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcRFJFVHlwZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/ToxSpecTypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcVG94U3BlY1R5cGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/ToxSpecTypes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcVG94U3BlY1R5cGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/ToxSpecTypes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcVG94U3BlY1R5cGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/ToxSpecTypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcVG94U3BlY1R5cGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/DRE/_OPT/ToxSpecTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFJFXF9PUFRcVG94U3BlY1R5cGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BS358/Documents/Projects/LEADRS_NEW_DBFirst/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-njclfwffwm

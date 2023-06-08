@@ -1,0 +1,180 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.AoFsts.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].HGNCluesLeft)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].HGNCluesRight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].HGNCluesTotal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].HGNLackOfPursuitLeft)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].HGNLackOfPursuitRight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].HGNDistinctMaxDevLeft)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].HGNDistinctMaxDevRight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].HGNOnsetPrior45Left)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].HGNOnsetPrior45Right)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].IsHGNVerticalNyst)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].WalkTurnStartSoon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].WalkTurnStepOffLine)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].WalkTurnMissHeelToe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].WalkTurnRaisesArms)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].WalkTurnWrongNumberSteps)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].WalkTurnStopWalking)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].WalkTurnImproperTurn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].WalkTurnCannotBalance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].WalkTurnClues)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].OneLegSways)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].OneLegUsesArms)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].OneLegHopps)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].OneLegPutFootDown)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].OneLegClues)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerFST[0].DreCaseId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreCaseArrestingOfficerFST) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HGNCluesLeft)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HGNCluesRight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HGNCluesTotal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HGNLackOfPursuitLeft)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HGNLackOfPursuitRight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HGNDistinctMaxDevLeft)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HGNDistinctMaxDevRight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HGNOnsetPrior45Left)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HGNOnsetPrior45Right)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsHGNVerticalNyst)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WalkTurnStartSoon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WalkTurnStepOffLine)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WalkTurnMissHeelToe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WalkTurnRaisesArms)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WalkTurnWrongNumberSteps)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WalkTurnStopWalking)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WalkTurnImproperTurn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WalkTurnCannotBalance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WalkTurnClues)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OneLegSways)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OneLegUsesArms)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OneLegHopps)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OneLegPutFootDown)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OneLegClues)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreCaseId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ArrestingOfficerFSTId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ArrestingOfficerFSTId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ArrestingOfficerFSTId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

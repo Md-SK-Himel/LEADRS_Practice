@@ -1,0 +1,50 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Pics.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DreCasePicture</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DreCasePicture.DreCasePictureId" />
+            <div class="form-group">
+                <label asp-for="DreCasePicture.Section" class="control-label"></label>
+                <input asp-for="DreCasePicture.Section" class="form-control" />
+                <span asp-validation-for="DreCasePicture.Section" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasePicture.Sequence" class="control-label"></label>
+                <input asp-for="DreCasePicture.Sequence" class="form-control" />
+                <span asp-validation-for="DreCasePicture.Sequence" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasePicture.ImageData" class="control-label"></label>
+                <input asp-for="DreCasePicture.ImageData" class="form-control" />
+                <span asp-validation-for="DreCasePicture.ImageData" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCasePicture.DreCaseId" class="control-label"></label>
+                <input asp-for="DreCasePicture.DreCaseId" class="form-control" />
+                <span asp-validation-for="DreCasePicture.DreCaseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

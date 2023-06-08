@@ -1,0 +1,75 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE._OPT.DRESecondIndicators.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DreCaseSecondIndicator</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DreCaseSecondIndicator.DreCaseSecondIndicatorId" />
+            <div class="form-group">
+                <label asp-for="DreCaseSecondIndicator.IndType" class="control-label"></label>
+                <input asp-for="DreCaseSecondIndicator.IndType" class="form-control" />
+                <span asp-validation-for="DreCaseSecondIndicator.IndType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseSecondIndicator.IndTypeFullName" class="control-label"></label>
+                <input asp-for="DreCaseSecondIndicator.IndTypeFullName" class="form-control" />
+                <span asp-validation-for="DreCaseSecondIndicator.IndTypeFullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseSecondIndicator.CnsDep" class="control-label"></label>
+                <input asp-for="DreCaseSecondIndicator.CnsDep" class="form-control" />
+                <span asp-validation-for="DreCaseSecondIndicator.CnsDep" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseSecondIndicator.CnsSti" class="control-label"></label>
+                <input asp-for="DreCaseSecondIndicator.CnsSti" class="form-control" />
+                <span asp-validation-for="DreCaseSecondIndicator.CnsSti" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseSecondIndicator.Hall" class="control-label"></label>
+                <input asp-for="DreCaseSecondIndicator.Hall" class="form-control" />
+                <span asp-validation-for="DreCaseSecondIndicator.Hall" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseSecondIndicator.DissAne" class="control-label"></label>
+                <input asp-for="DreCaseSecondIndicator.DissAne" class="form-control" />
+                <span asp-validation-for="DreCaseSecondIndicator.DissAne" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseSecondIndicator.NarAna" class="control-label"></label>
+                <input asp-for="DreCaseSecondIndicator.NarAna" class="form-control" />
+                <span asp-validation-for="DreCaseSecondIndicator.NarAna" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseSecondIndicator.Inha" class="control-label"></label>
+                <input asp-for="DreCaseSecondIndicator.Inha" class="form-control" />
+                <span asp-validation-for="DreCaseSecondIndicator.Inha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseSecondIndicator.Cann" class="control-label"></label>
+                <input asp-for="DreCaseSecondIndicator.Cann" class="form-control" />
+                <span asp-validation-for="DreCaseSecondIndicator.Cann" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

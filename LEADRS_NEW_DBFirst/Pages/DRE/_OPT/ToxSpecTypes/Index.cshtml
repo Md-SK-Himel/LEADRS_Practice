@@ -1,0 +1,42 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE._OPT.ToxSpecTypes.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseToxSpecType[0].ToxSpecTypeDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseToxSpecType[0].Active)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreCaseToxSpecType) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ToxSpecTypeDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Active)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ToxSpecTypeId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ToxSpecTypeId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ToxSpecTypeId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

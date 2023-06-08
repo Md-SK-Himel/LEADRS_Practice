@@ -1,0 +1,54 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Pics.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCasePicture[0].Section)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCasePicture[0].Sequence)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCasePicture[0].ImageData)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCasePicture[0].DreCaseId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreCasePicture) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Section)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sequence)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImageData)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreCaseId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DreCasePictureId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DreCasePictureId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DreCasePictureId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

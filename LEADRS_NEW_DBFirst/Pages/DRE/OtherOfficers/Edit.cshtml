@@ -1,0 +1,95 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.OtherOfficers.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DreCaseOtherOfficer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DreCaseOtherOfficer.OtherOfficerId" />
+            <div class="form-group">
+                <label asp-for="DreCaseOtherOfficer.OfficerId" class="control-label"></label>
+                <input asp-for="DreCaseOtherOfficer.OfficerId" class="form-control" />
+                <span asp-validation-for="DreCaseOtherOfficer.OfficerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOtherOfficer.OfficerUserId" class="control-label"></label>
+                <input asp-for="DreCaseOtherOfficer.OfficerUserId" class="form-control" />
+                <span asp-validation-for="DreCaseOtherOfficer.OfficerUserId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOtherOfficer.OfficerName" class="control-label"></label>
+                <input asp-for="DreCaseOtherOfficer.OfficerName" class="form-control" />
+                <span asp-validation-for="DreCaseOtherOfficer.OfficerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOtherOfficer.DreNumber" class="control-label"></label>
+                <input asp-for="DreCaseOtherOfficer.DreNumber" class="form-control" />
+                <span asp-validation-for="DreCaseOtherOfficer.DreNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOtherOfficer.Badge" class="control-label"></label>
+                <input asp-for="DreCaseOtherOfficer.Badge" class="form-control" />
+                <span asp-validation-for="DreCaseOtherOfficer.Badge" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOtherOfficer.OfficerAgency" class="control-label"></label>
+                <input asp-for="DreCaseOtherOfficer.OfficerAgency" class="form-control" />
+                <span asp-validation-for="DreCaseOtherOfficer.OfficerAgency" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOtherOfficer.OfficerDeptId" class="control-label"></label>
+                <input asp-for="DreCaseOtherOfficer.OfficerDeptId" class="form-control" />
+                <span asp-validation-for="DreCaseOtherOfficer.OfficerDeptId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOtherOfficer.DreRoleId" class="control-label"></label>
+                <select asp-for="DreCaseOtherOfficer.DreRoleId" class="form-control" asp-items="ViewBag.DreRoleId"></select>
+                <span asp-validation-for="DreCaseOtherOfficer.DreRoleId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOtherOfficer.PBT" class="control-label"></label>
+                <input asp-for="DreCaseOtherOfficer.PBT" class="form-control" />
+                <span asp-validation-for="DreCaseOtherOfficer.PBT" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOtherOfficer.RollingLogNumber" class="control-label"></label>
+                <input asp-for="DreCaseOtherOfficer.RollingLogNumber" class="form-control" />
+                <span asp-validation-for="DreCaseOtherOfficer.RollingLogNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOtherOfficer.Accepted" class="control-label"></label>
+                <input asp-for="DreCaseOtherOfficer.Accepted" class="form-control" />
+                <span asp-validation-for="DreCaseOtherOfficer.Accepted" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOtherOfficer.IsOwner" class="control-label"></label>
+                <input asp-for="DreCaseOtherOfficer.IsOwner" class="form-control" />
+                <span asp-validation-for="DreCaseOtherOfficer.IsOwner" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOtherOfficer.DreCaseId" class="control-label"></label>
+                <input asp-for="DreCaseOtherOfficer.DreCaseId" class="form-control" />
+                <span asp-validation-for="DreCaseOtherOfficer.DreCaseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

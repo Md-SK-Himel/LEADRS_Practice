@@ -1,0 +1,480 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Cases.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].UniqueId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].EvaluatorId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].CaseOwnerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].CaseOwnerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].CaseOwnerAgency)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].CaseOwnerRank)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].CaseOwnerBadge)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].CaseOwnerDepartmentId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].DreNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].RollingLogNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].LocationId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].DepartmentId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].CrashNone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].CrashFatal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].CrashInjury)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].CrashProperty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].AgencyCaseNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].EvaulationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].AssociatedCaseId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].NotifyDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].NotifyTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].InitialObservationOfSubject)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].EvaluationAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].OffenseAddress1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].OffenseAddress2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].OffenseCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].OffenseState)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].OffenseCounty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].OffenseLat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].OffenseLng)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].OffenseZip)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].MirandaGiven)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].MirandaEnglish)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].MirandaSpanish)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].MirandaDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].MirandaUnderstood)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].MirandaGivenBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].EatenToday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].EatenWhen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].DrinkingToday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].DrinkingHowMuch)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].DrinkingTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].DefendantTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].ActualTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].LastSleep)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].SleepHowLong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].SickInjured)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].SickInjuredDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].DiabeticEpileptic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].DiabeticEpilepticDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].Insulin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].InsulinDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].PhysicalDefects)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].PhysicalDefectsDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].UnderCare)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].UnderCareDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].MedicationsDrug)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].MedicationsDrugDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].PulseRate1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].PulseSite1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].PulseTime1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].PulseRate2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].PulseSite2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].PulseTime2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].PulseRate3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].PulseSite3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].PulseTime3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].InitialAngleNystagums)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].InitialPupilSizeL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].InitialPupilSizeR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].DREType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].DreRole)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].DreNotified)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].DreRequested)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DRECase[0].Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DRECase) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UniqueId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EvaluatorId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CaseOwnerId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CaseOwnerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CaseOwnerAgency)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CaseOwnerRank)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CaseOwnerBadge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CaseOwnerDepartmentId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RollingLogNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LocationId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DepartmentId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CrashNone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CrashFatal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CrashInjury)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CrashProperty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AgencyCaseNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EvaulationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssociatedCaseId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NotifyDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NotifyTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InitialObservationOfSubject)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EvaluationAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OffenseAddress1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OffenseAddress2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OffenseCity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OffenseState)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OffenseCounty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OffenseLat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OffenseLng)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OffenseZip)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MirandaGiven)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MirandaEnglish)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MirandaSpanish)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MirandaDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MirandaUnderstood)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MirandaGivenBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EatenToday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EatenWhen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DrinkingToday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DrinkingHowMuch)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DrinkingTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DefendantTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActualTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastSleep)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SleepHowLong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SickInjured)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SickInjuredDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiabeticEpileptic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiabeticEpilepticDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Insulin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InsulinDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhysicalDefects)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhysicalDefectsDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnderCare)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnderCareDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MedicationsDrug)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MedicationsDrugDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PulseRate1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PulseSite1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PulseTime1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PulseRate2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PulseSite2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PulseTime2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PulseRate3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PulseSite3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PulseTime3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InitialAngleNystagums)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InitialPupilSizeL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InitialPupilSizeR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DREType.DRETypeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreRole.DRERoleId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreNotified.DreNotifiedId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreRequested.DreRequestedId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status.DRECaseStatusId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DRECaseId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DRECaseId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DRECaseId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

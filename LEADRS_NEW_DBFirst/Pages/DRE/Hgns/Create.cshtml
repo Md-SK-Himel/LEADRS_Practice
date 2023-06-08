@@ -1,0 +1,169 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Hgns.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>DreCaseHGN</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.CluesLeft" class="control-label"></label>
+                <input asp-for="DreCaseHGN.CluesLeft" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.CluesLeft" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.CluesRight" class="control-label"></label>
+                <input asp-for="DreCaseHGN.CluesRight" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.CluesRight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.CluesTotal" class="control-label"></label>
+                <input asp-for="DreCaseHGN.CluesTotal" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.CluesTotal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.HeadInjuries" class="control-label"></label>
+                <input asp-for="DreCaseHGN.HeadInjuries" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.HeadInjuries" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.HeadInjuriesComments" class="control-label"></label>
+                <input asp-for="DreCaseHGN.HeadInjuriesComments" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.HeadInjuriesComments" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.Contacts" class="control-label"></label>
+                <input asp-for="DreCaseHGN.Contacts" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.Contacts" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.ContactDescription" class="control-label"></label>
+                <input asp-for="DreCaseHGN.ContactDescription" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.ContactDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.EqualPupilSize" class="control-label"></label>
+                <input asp-for="DreCaseHGN.EqualPupilSize" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.EqualPupilSize" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.PupilSizeComments" class="control-label"></label>
+                <input asp-for="DreCaseHGN.PupilSizeComments" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.PupilSizeComments" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.RestingNystagmus" class="control-label"></label>
+                <input asp-for="DreCaseHGN.RestingNystagmus" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.RestingNystagmus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.EqualTracking" class="control-label"></label>
+                <input asp-for="DreCaseHGN.EqualTracking" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.EqualTracking" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.FollowStimulus" class="control-label"></label>
+                <input asp-for="DreCaseHGN.FollowStimulus" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.FollowStimulus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.StimulusComments" class="control-label"></label>
+                <input asp-for="DreCaseHGN.StimulusComments" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.StimulusComments" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.LackOfPursuitL" class="control-label"></label>
+                <input asp-for="DreCaseHGN.LackOfPursuitL" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.LackOfPursuitL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.LackOfPursuitR" class="control-label"></label>
+                <input asp-for="DreCaseHGN.LackOfPursuitR" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.LackOfPursuitR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.DistinctMaxDevL" class="control-label"></label>
+                <input asp-for="DreCaseHGN.DistinctMaxDevL" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.DistinctMaxDevL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.DistinctMaxDevR" class="control-label"></label>
+                <input asp-for="DreCaseHGN.DistinctMaxDevR" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.DistinctMaxDevR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.OnsetPrior45L" class="control-label"></label>
+                <input asp-for="DreCaseHGN.OnsetPrior45L" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.OnsetPrior45L" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.OnsetPrior45R" class="control-label"></label>
+                <input asp-for="DreCaseHGN.OnsetPrior45R" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.OnsetPrior45R" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.IsVerticalNyst" class="control-label"></label>
+                <input asp-for="DreCaseHGN.IsVerticalNyst" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.IsVerticalNyst" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.OtherComments" class="control-label"></label>
+                <input asp-for="DreCaseHGN.OtherComments" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.OtherComments" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.HgnUnderstood" class="control-label"></label>
+                <input asp-for="DreCaseHGN.HgnUnderstood" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.HgnUnderstood" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.VerticalNyst" class="control-label"></label>
+                <input asp-for="DreCaseHGN.VerticalNyst" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.VerticalNyst" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.HgnEstimatedAngleId" class="control-label"></label>
+                <input asp-for="DreCaseHGN.HgnEstimatedAngleId" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.HgnEstimatedAngleId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.LEstimatedAngleId" class="control-label"></label>
+                <input asp-for="DreCaseHGN.LEstimatedAngleId" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.LEstimatedAngleId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.REstimatedAngleId" class="control-label"></label>
+                <input asp-for="DreCaseHGN.REstimatedAngleId" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.REstimatedAngleId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.ConvergencePresent" class="control-label"></label>
+                <input asp-for="DreCaseHGN.ConvergencePresent" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.ConvergencePresent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseHGN.DreCaseId" class="control-label"></label>
+                <input asp-for="DreCaseHGN.DreCaseId" class="form-control" />
+                <span asp-validation-for="DreCaseHGN.DreCaseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

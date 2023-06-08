@@ -1,0 +1,330 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.AoObs.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DreCaseArrestingOfficerObservation</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DreCaseArrestingOfficerObservation.ObservationId" />
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.ClothingDisorderly" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.ClothingDisorderly)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.ClothingSoiled" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.ClothingSoiled)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.ClothingStained" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.ClothingStained)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.ClothingTorn" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.ClothingTorn)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.ClothingOrderly" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.ClothingOrderly)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.BalanceSwaying" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.BalanceSwaying)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.BalanceUnsteady" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.BalanceUnsteady)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.BalanceNeededSupport" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.BalanceNeededSupport)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.BalanceFallingDown" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.BalanceFallingDown)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.BalanceNormal" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.BalanceNormal)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.WalkingStaggering" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.WalkingStaggering)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.WalkingFalling" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.WalkingFalling)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.WalkingSwaying" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.WalkingSwaying)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.WalkingHeavyFooted" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.WalkingHeavyFooted)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.WalkingNormal" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.WalkingNormal)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.SpeechSlurred" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.SpeechSlurred)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.SpeechIncoherent" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.SpeechIncoherent)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.SpeechThickTongued" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.SpeechThickTongued)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.SpeechSlowMumbled" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.SpeechSlowMumbled)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.SpeechNormal" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.SpeechNormal)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.EyesRed" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.EyesRed)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.EyesWatering" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.EyesWatering)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.EyesDilated" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.EyesDilated)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.EyesDroopyEyeLids" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.EyesDroopyEyeLids)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.EyesNormal" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.EyesNormal)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.AttitudeUnCooperative" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.AttitudeUnCooperative)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.AttitudeCooperative" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.AttitudeCooperative)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.AttitudeCombative" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.AttitudeCombative)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.AttitudeIndifferent" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.AttitudeIndifferent)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.AttitudeCocky" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.AttitudeCocky)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.AttitudeApologetic" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.AttitudeApologetic)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.TypeOfAlcohol" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.TypeOfAlcohol" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.TypeOfAlcohol" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.UnusualActions" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.UnusualActions" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.UnusualActions" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.DrugSuspected" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.DrugSuspected" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.DrugSuspected" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.DrugWhySuspected" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.DrugWhySuspected" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.DrugWhySuspected" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.DrugCategoryCNSDepressant" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.DrugCategoryCNSDepressant" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.DrugCategoryCNSDepressant" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.DrugCategoryHallucinogents" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.DrugCategoryHallucinogents" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.DrugCategoryHallucinogents" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.DrugCategoryNarcoticAbalgestic" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.DrugCategoryNarcoticAbalgestic" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.DrugCategoryNarcoticAbalgestic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.DrugCategoryCannabis" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.DrugCategoryCannabis" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.DrugCategoryCannabis" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.DrugCategoryCNSStimulants" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.DrugCategoryCNSStimulants" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.DrugCategoryCNSStimulants" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="DreCaseArrestingOfficerObservation.DrugCategoryPCP" /> @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.DrugCategoryPCP)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.DrugCategoryInhalants" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.DrugCategoryInhalants" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.DrugCategoryInhalants" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.DrugReasonSuspected" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.DrugReasonSuspected" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.DrugReasonSuspected" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.Comments" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.Comments" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.Comments" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.BAC" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.BAC" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.BAC" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.InstrumentPBT" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.InstrumentPBT" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.InstrumentPBT" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.InstrumentIntoxilyzer" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.InstrumentIntoxilyzer" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.InstrumentIntoxilyzer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.InstrumentOther" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.InstrumentOther" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.InstrumentOther" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.InstrumentRefused" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.InstrumentRefused" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.InstrumentRefused" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.InstrumentNA" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.InstrumentNA" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.InstrumentNA" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.InstrumentPending" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.InstrumentPending" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.InstrumentPending" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.InstrumentWarrant" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.InstrumentWarrant" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.InstrumentWarrant" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.InstrumentNumber" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.InstrumentNumber" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.InstrumentNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.InstrumentPBTDate" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.InstrumentPBTDate" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.InstrumentPBTDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.AdditionalBreathPerformed" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.AdditionalBreathPerformed" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.AdditionalBreathPerformed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.TypeAlcoholDrug" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.TypeAlcoholDrug" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.TypeAlcoholDrug" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.BreathRefused" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.BreathRefused" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.BreathRefused" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.BreathResults" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.BreathResults" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.BreathResults" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.BreathInstrumentNumber" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.BreathInstrumentNumber" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.BreathInstrumentNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerObservation.DreCaseId" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerObservation.DreCaseId" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerObservation.DreCaseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

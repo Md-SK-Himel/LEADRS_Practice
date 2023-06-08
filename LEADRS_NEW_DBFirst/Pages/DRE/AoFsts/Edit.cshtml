@@ -1,0 +1,155 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.AoFsts.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DreCaseArrestingOfficerFST</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DreCaseArrestingOfficerFST.ArrestingOfficerFSTId" />
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.HGNCluesLeft" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.HGNCluesLeft" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.HGNCluesLeft" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.HGNCluesRight" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.HGNCluesRight" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.HGNCluesRight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.HGNCluesTotal" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.HGNCluesTotal" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.HGNCluesTotal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.HGNLackOfPursuitLeft" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.HGNLackOfPursuitLeft" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.HGNLackOfPursuitLeft" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.HGNLackOfPursuitRight" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.HGNLackOfPursuitRight" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.HGNLackOfPursuitRight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.HGNDistinctMaxDevLeft" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.HGNDistinctMaxDevLeft" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.HGNDistinctMaxDevLeft" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.HGNDistinctMaxDevRight" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.HGNDistinctMaxDevRight" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.HGNDistinctMaxDevRight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.HGNOnsetPrior45Left" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.HGNOnsetPrior45Left" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.HGNOnsetPrior45Left" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.HGNOnsetPrior45Right" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.HGNOnsetPrior45Right" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.HGNOnsetPrior45Right" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.IsHGNVerticalNyst" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.IsHGNVerticalNyst" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.IsHGNVerticalNyst" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.WalkTurnStartSoon" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.WalkTurnStartSoon" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.WalkTurnStartSoon" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.WalkTurnStepOffLine" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.WalkTurnStepOffLine" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.WalkTurnStepOffLine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.WalkTurnMissHeelToe" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.WalkTurnMissHeelToe" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.WalkTurnMissHeelToe" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.WalkTurnRaisesArms" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.WalkTurnRaisesArms" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.WalkTurnRaisesArms" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.WalkTurnWrongNumberSteps" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.WalkTurnWrongNumberSteps" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.WalkTurnWrongNumberSteps" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.WalkTurnStopWalking" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.WalkTurnStopWalking" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.WalkTurnStopWalking" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.WalkTurnImproperTurn" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.WalkTurnImproperTurn" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.WalkTurnImproperTurn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.WalkTurnCannotBalance" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.WalkTurnCannotBalance" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.WalkTurnCannotBalance" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.WalkTurnClues" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.WalkTurnClues" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.WalkTurnClues" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.OneLegSways" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.OneLegSways" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.OneLegSways" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.OneLegUsesArms" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.OneLegUsesArms" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.OneLegUsesArms" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.OneLegHopps" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.OneLegHopps" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.OneLegHopps" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.OneLegPutFootDown" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.OneLegPutFootDown" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.OneLegPutFootDown" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.OneLegClues" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.OneLegClues" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.OneLegClues" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseArrestingOfficerFST.DreCaseId" class="control-label"></label>
+                <input asp-for="DreCaseArrestingOfficerFST.DreCaseId" class="form-control" />
+                <span asp-validation-for="DreCaseArrestingOfficerFST.DreCaseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

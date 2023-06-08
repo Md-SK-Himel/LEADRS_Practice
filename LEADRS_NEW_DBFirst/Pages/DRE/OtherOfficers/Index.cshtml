@@ -1,0 +1,108 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.OtherOfficers.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherOfficer[0].OfficerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherOfficer[0].OfficerUserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherOfficer[0].OfficerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherOfficer[0].DreNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherOfficer[0].Badge)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherOfficer[0].OfficerAgency)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherOfficer[0].OfficerDeptId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherOfficer[0].DRERole)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherOfficer[0].PBT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherOfficer[0].RollingLogNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherOfficer[0].Accepted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherOfficer[0].IsOwner)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseOtherOfficer[0].DreCaseId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreCaseOtherOfficer) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OfficerId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OfficerUserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OfficerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Badge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OfficerAgency)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OfficerDeptId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DRERole.DRERoleId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PBT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RollingLogNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Accepted)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsOwner)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreCaseId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.OtherOfficerId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.OtherOfficerId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.OtherOfficerId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

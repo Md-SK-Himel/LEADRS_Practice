@@ -1,0 +1,379 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.AoObs.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>DreCaseArrestingOfficerObservation</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.ClothingDisorderly)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.ClothingDisorderly)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.ClothingSoiled)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.ClothingSoiled)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.ClothingStained)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.ClothingStained)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.ClothingTorn)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.ClothingTorn)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.ClothingOrderly)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.ClothingOrderly)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.BalanceSwaying)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.BalanceSwaying)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.BalanceUnsteady)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.BalanceUnsteady)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.BalanceNeededSupport)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.BalanceNeededSupport)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.BalanceFallingDown)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.BalanceFallingDown)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.BalanceNormal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.BalanceNormal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.WalkingStaggering)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.WalkingStaggering)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.WalkingFalling)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.WalkingFalling)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.WalkingSwaying)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.WalkingSwaying)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.WalkingHeavyFooted)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.WalkingHeavyFooted)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.WalkingNormal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.WalkingNormal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.SpeechSlurred)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.SpeechSlurred)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.SpeechIncoherent)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.SpeechIncoherent)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.SpeechThickTongued)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.SpeechThickTongued)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.SpeechSlowMumbled)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.SpeechSlowMumbled)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.SpeechNormal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.SpeechNormal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.EyesRed)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.EyesRed)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.EyesWatering)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.EyesWatering)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.EyesDilated)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.EyesDilated)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.EyesDroopyEyeLids)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.EyesDroopyEyeLids)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.EyesNormal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.EyesNormal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.AttitudeUnCooperative)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.AttitudeUnCooperative)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.AttitudeCooperative)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.AttitudeCooperative)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.AttitudeCombative)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.AttitudeCombative)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.AttitudeIndifferent)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.AttitudeIndifferent)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.AttitudeCocky)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.AttitudeCocky)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.AttitudeApologetic)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.AttitudeApologetic)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.TypeOfAlcohol)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.TypeOfAlcohol)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.UnusualActions)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.UnusualActions)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.DrugSuspected)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.DrugSuspected)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.DrugWhySuspected)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.DrugWhySuspected)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.DrugCategoryCNSDepressant)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.DrugCategoryCNSDepressant)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.DrugCategoryHallucinogents)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.DrugCategoryHallucinogents)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.DrugCategoryNarcoticAbalgestic)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.DrugCategoryNarcoticAbalgestic)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.DrugCategoryCannabis)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.DrugCategoryCannabis)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.DrugCategoryCNSStimulants)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.DrugCategoryCNSStimulants)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.DrugCategoryPCP)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.DrugCategoryPCP)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.DrugCategoryInhalants)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.DrugCategoryInhalants)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.DrugReasonSuspected)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.DrugReasonSuspected)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.Comments)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.Comments)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.BAC)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.BAC)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.InstrumentPBT)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.InstrumentPBT)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.InstrumentIntoxilyzer)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.InstrumentIntoxilyzer)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.InstrumentOther)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.InstrumentOther)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.InstrumentRefused)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.InstrumentRefused)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.InstrumentNA)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.InstrumentNA)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.InstrumentPending)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.InstrumentPending)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.InstrumentWarrant)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.InstrumentWarrant)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.InstrumentNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.InstrumentNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.InstrumentPBTDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.InstrumentPBTDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.AdditionalBreathPerformed)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.AdditionalBreathPerformed)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.TypeAlcoholDrug)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.TypeAlcoholDrug)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.BreathRefused)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.BreathRefused)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.BreathResults)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.BreathResults)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.BreathInstrumentNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.BreathInstrumentNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseArrestingOfficerObservation.DreCaseId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseArrestingOfficerObservation.DreCaseId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.DreCaseArrestingOfficerObservation?.ObservationId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

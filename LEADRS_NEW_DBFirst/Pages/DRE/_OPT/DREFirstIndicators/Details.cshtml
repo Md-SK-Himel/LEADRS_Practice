@@ -1,0 +1,79 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE._OPT.DREFirstIndicators.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>DreCaseFirstIndicator</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseFirstIndicator.IndType)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseFirstIndicator.IndType)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseFirstIndicator.CnsDep)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseFirstIndicator.CnsDep)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseFirstIndicator.CnsSti)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseFirstIndicator.CnsSti)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseFirstIndicator.HALL)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseFirstIndicator.HALL)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseFirstIndicator.DisAne)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseFirstIndicator.DisAne)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseFirstIndicator.NarAna)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseFirstIndicator.NarAna)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseFirstIndicator.INHA)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseFirstIndicator.INHA)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseFirstIndicator.CANN)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseFirstIndicator.CANN)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseFirstIndicator.IndTypeFullName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseFirstIndicator.IndTypeFullName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseFirstIndicator.DisplayName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseFirstIndicator.DisplayName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.DreCaseFirstIndicator?.DreCaseFirstIndicatorId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

@@ -1,0 +1,78 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Notes.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseNote[0].DreCase)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseNote[0].DreCaseNoteType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseNote[0].Notes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseNote[0].ParentId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseNote[0].CreatedById)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseNote[0].CreatedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseNote[0].UpdatedById)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseNote[0].UpdatedDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreCaseNote) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreCase.DreNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreCaseNoteType.DreCaseNoteTypeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ParentId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedById)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UpdatedById)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UpdatedDate)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DreCaseNoteId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DreCaseNoteId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DreCaseNoteId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

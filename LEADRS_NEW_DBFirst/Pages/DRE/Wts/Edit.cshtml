@@ -1,0 +1,260 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Wts.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DreCaseWalkTurn</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DreCaseWalkTurn.DreCaseWTId" />
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.ActualSteps1" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.ActualSteps1" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.ActualSteps1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.ActualSteps2" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.ActualSteps2" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.ActualSteps2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.BodyTremos" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.BodyTremos" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.BodyTremos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.CannotBalance" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.CannotBalance" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.CannotBalance" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.EyelidsTremos" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.EyelidsTremos" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.EyelidsTremos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.ImproperTurn" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.ImproperTurn" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.ImproperTurn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.LegTremos" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.LegTremos" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.LegTremos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.MissHellToe" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.MissHellToe" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.MissHellToe" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.MuscleTensions" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.MuscleTensions" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.MuscleTensions" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.RaisesArms" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.RaisesArms" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.RaisesArms" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.OtherComments" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.OtherComments" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.OtherComments" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.SO_LL" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.SO_LL" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.SO_LL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.SO_LR" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.SO_LR" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.SO_LR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.SO_RL" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.SO_RL" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.SO_RL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.SO_RR" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.SO_RR" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.SO_RR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.Sounds" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.Sounds" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.Sounds" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.StartsSoon" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.StartsSoon" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.StartsSoon" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.StepOffLine" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.StepOffLine" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.StepOffLine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.StopsWalking" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.StopsWalking" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.StopsWalking" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.Swaying" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.Swaying" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.Swaying" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.UnableToPerform" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.UnableToPerform" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.UnableToPerform" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.UnserstoodInstructions" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.UnserstoodInstructions" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.UnserstoodInstructions" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WalkTurnGiven" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WalkTurnGiven" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WalkTurnGiven" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WrongNumberSteps" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WrongNumberSteps" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WrongNumberSteps" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WTMissesFirstNine" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WTMissesFirstNine" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WTMissesFirstNine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WTMissesSecondNine" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WTMissesSecondNine" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WTMissesSecondNine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WTNAFirstNine" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WTNAFirstNine" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WTNAFirstNine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WTNASecondNine" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WTNASecondNine" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WTNASecondNine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WTOther" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WTOther" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WTOther" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WTRaisesFirstNine" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WTRaisesFirstNine" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WTRaisesFirstNine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WTRaisesSecondNine" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WTRaisesSecondNine" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WTRaisesSecondNine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WTStepCount" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WTStepCount" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WTStepCount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WTStepCountSecond" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WTStepCountSecond" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WTStepCountSecond" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WTStepsLeftFirstNine" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WTStepsLeftFirstNine" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WTStepsLeftFirstNine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WTStepsLeftSecondNine" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WTStepsLeftSecondNine" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WTStepsLeftSecondNine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WTStepsRightFirstNine" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WTStepsRightFirstNine" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WTStepsRightFirstNine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WTStepsRightSecondNine" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WTStepsRightSecondNine" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WTStepsRightSecondNine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WTStopsFirstNine" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WTStopsFirstNine" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WTStopsFirstNine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WTStopsSecondNine" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WTStopsSecondNine" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WTStopsSecondNine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WTTakensFirstNine" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WTTakensFirstNine" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WTTakensFirstNine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WTTakenSecondNine" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WTTakenSecondNine" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WTTakenSecondNine" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WalkTurnNoTest" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WalkTurnNoTest" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WalkTurnNoTest" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.WalkTurnDescribeTurn" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.WalkTurnDescribeTurn" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.WalkTurnDescribeTurn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.OLSComments" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.OLSComments" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.OLSComments" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.OLSStarts" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.OLSStarts" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.OLSStarts" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseWalkTurn.DreCaseId" class="control-label"></label>
+                <input asp-for="DreCaseWalkTurn.DreCaseId" class="form-control" />
+                <span asp-validation-for="DreCaseWalkTurn.DreCaseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

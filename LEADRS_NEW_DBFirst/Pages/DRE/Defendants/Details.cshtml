@@ -1,0 +1,97 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Defendants.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>DreCaseDefendant</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseDefendant.LastName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseDefendant.LastName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseDefendant.FirstName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseDefendant.FirstName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseDefendant.MiddleName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseDefendant.MiddleName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseDefendant.DOB)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseDefendant.DOB)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseDefendant.Age)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseDefendant.Age)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseDefendant.EthnicityId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseDefendant.EthnicityId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseDefendant.SexId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseDefendant.SexId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseDefendant.RaceId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseDefendant.RaceId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseDefendant.ArrestingOfficerId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseDefendant.ArrestingOfficerId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseDefendant.ArrestingOfficerAgency)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseDefendant.ArrestingOfficerAgency)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseDefendant.ArrestingOfficerName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseDefendant.ArrestingOfficerName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseDefendant.ArrestingOfficerType)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseDefendant.ArrestingOfficerType.ArrestingOfficerTypeId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DreCaseDefendant.DreCaseId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DreCaseDefendant.DreCaseId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.DreCaseDefendant?.DreCaseDefendantId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

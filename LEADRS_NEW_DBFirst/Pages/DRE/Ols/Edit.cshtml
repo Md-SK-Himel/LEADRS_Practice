@@ -1,0 +1,265 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Ols.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DreCaseOneLegStand</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DreCaseOneLegStand.DreCaseOLSId" />
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSTimeL" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSTimeL" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSTimeL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSTimeR" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSTimeR" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSTimeR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSSwaysL" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSSwaysL" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSSwaysL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSSwaysR" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSSwaysR" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSSwaysR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSArmsL" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSArmsL" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSArmsL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSArmsR" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSArmsR" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSArmsR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSHoppingL" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSHoppingL" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSHoppingL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSHoppingR" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSHoppingR" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSHoppingR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSFootL" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSFootL" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSFootL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSFootR" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSFootR" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSFootR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSLeftDown" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSLeftDown" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSLeftDown" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSLeftDownCount" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSLeftDownCount" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSLeftDownCount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSRightDown" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSRightDown" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSRightDown" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSRightDownCount" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSRightDownCount" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSRightDownCount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.FootWearTypeId" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.FootWearTypeId" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.FootWearTypeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OneLegStandGiven" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OneLegStandGiven" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OneLegStandGiven" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.UnableToPerform" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.UnableToPerform" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.UnableToPerform" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.UnderstoodInstruction" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.UnderstoodInstruction" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.UnderstoodInstruction" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.MuscleTensions" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.MuscleTensions" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.MuscleTensions" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.Sounds" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.Sounds" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.Sounds" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSNoates" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSNoates" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSNoates" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSArmTimeL" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSArmTimeL" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSArmTimeL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSArmTimeR" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSArmTimeR" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSArmTimeR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSSwayTimeL" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSSwayTimeL" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSSwayTimeL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSSwayTimeR" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSSwayTimeR" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSSwayTimeR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSHopTimeL" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSHopTimeL" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSHopTimeL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSHopTimeR" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSHopTimeR" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSHopTimeR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSTImeLeftDown" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSTImeLeftDown" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSTImeLeftDown" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSTImeRightDown" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSTImeRightDown" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSTImeRightDown" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.NOLookDownL" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.NOLookDownL" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.NOLookDownL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.NOLookDownR" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.NOLookDownR" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.NOLookDownR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.NoCountL" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.NoCountL" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.NoCountL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.NoCountR" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.NoCountR" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.NoCountR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.NotSixInchesL" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.NotSixInchesL" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.NotSixInchesL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.NotSixInchesR" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.NotSixInchesR" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.NotSixInchesR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.BodyTremosL" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.BodyTremosL" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.BodyTremosL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.EyeLidTremosL" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.EyeLidTremosL" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.EyeLidTremosL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.LegTremosL" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.LegTremosL" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.LegTremosL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OtherL" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OtherL" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OtherL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSOtherL" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSOtherL" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSOtherL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.BodyTremos_R" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.BodyTremos_R" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.BodyTremos_R" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.EyeLidTremosR" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.EyeLidTremosR" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.EyeLidTremosR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.LegTremosR" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.LegTremosR" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.LegTremosR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OtherR" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OtherR" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OtherR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSOtherR" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSOtherR" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSOtherR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.OLSComments" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.OLSComments" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.OLSComments" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseOneLegStand.DreCaseId" class="control-label"></label>
+                <input asp-for="DreCaseOneLegStand.DreCaseId" class="form-control" />
+                <span asp-validation-for="DreCaseOneLegStand.DreCaseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

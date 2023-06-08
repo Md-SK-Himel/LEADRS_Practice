@@ -1,0 +1,80 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE._OPT.DREFirstIndicators.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DreCaseFirstIndicator</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DreCaseFirstIndicator.DreCaseFirstIndicatorId" />
+            <div class="form-group">
+                <label asp-for="DreCaseFirstIndicator.IndType" class="control-label"></label>
+                <input asp-for="DreCaseFirstIndicator.IndType" class="form-control" />
+                <span asp-validation-for="DreCaseFirstIndicator.IndType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseFirstIndicator.CnsDep" class="control-label"></label>
+                <input asp-for="DreCaseFirstIndicator.CnsDep" class="form-control" />
+                <span asp-validation-for="DreCaseFirstIndicator.CnsDep" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseFirstIndicator.CnsSti" class="control-label"></label>
+                <input asp-for="DreCaseFirstIndicator.CnsSti" class="form-control" />
+                <span asp-validation-for="DreCaseFirstIndicator.CnsSti" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseFirstIndicator.HALL" class="control-label"></label>
+                <input asp-for="DreCaseFirstIndicator.HALL" class="form-control" />
+                <span asp-validation-for="DreCaseFirstIndicator.HALL" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseFirstIndicator.DisAne" class="control-label"></label>
+                <input asp-for="DreCaseFirstIndicator.DisAne" class="form-control" />
+                <span asp-validation-for="DreCaseFirstIndicator.DisAne" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseFirstIndicator.NarAna" class="control-label"></label>
+                <input asp-for="DreCaseFirstIndicator.NarAna" class="form-control" />
+                <span asp-validation-for="DreCaseFirstIndicator.NarAna" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseFirstIndicator.INHA" class="control-label"></label>
+                <input asp-for="DreCaseFirstIndicator.INHA" class="form-control" />
+                <span asp-validation-for="DreCaseFirstIndicator.INHA" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseFirstIndicator.CANN" class="control-label"></label>
+                <input asp-for="DreCaseFirstIndicator.CANN" class="form-control" />
+                <span asp-validation-for="DreCaseFirstIndicator.CANN" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseFirstIndicator.IndTypeFullName" class="control-label"></label>
+                <input asp-for="DreCaseFirstIndicator.IndTypeFullName" class="form-control" />
+                <span asp-validation-for="DreCaseFirstIndicator.IndTypeFullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseFirstIndicator.DisplayName" class="control-label"></label>
+                <input asp-for="DreCaseFirstIndicator.DisplayName" class="form-control" />
+                <span asp-validation-for="DreCaseFirstIndicator.DisplayName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

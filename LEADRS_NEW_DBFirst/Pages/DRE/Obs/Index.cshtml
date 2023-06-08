@@ -1,0 +1,558 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Obs.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeCooperative)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeCombative)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeIndifferent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeCocky)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeApologetic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeRestless)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeDisoriented)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeAnxious)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeRelaxed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeCareFree)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeConfused)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeDazed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeParanoid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeTalkative)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeUninhibited)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeExcited)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudePassive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeNonCommunicative)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].AttitudeOther)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BalanceSwaying)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BalanceUnsteady)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BalanceNeededSupport)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BalanceFallingDown)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BalanceNormal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BalancePoor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BalanceSlow)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BalanceUncoordinated)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BalanceSluggish)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BalanceDepressedReflexes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BalanceMoonWalking)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].SpeechSlurred)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].SpeechIncoherent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].SpeechThickTongued)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].SpeechSlowMumbled)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].SpeechNormal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].SpeechSlow)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].SpeechLow)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].SpeechRaspy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].SpeechRapidFast)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].SpeechIncompleteVerbalResposes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].SpeechOther)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].WalkingStaggering)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].WalkingFalling)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].WalkingHeavyFooted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].WalkingSwaying)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].WalkingNormal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BreathNormal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BreathAlcohol)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BreathMarijuana)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BreathChemical)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BreathBad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BreathOther)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].FaceFlushed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].FacePale)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].FaceNormal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].FaceScars)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].FaceOpenSores)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].FaceInjuries)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].FaceFacialItching)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].FaceBlankStare)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].FaceDazedAppearance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].FaceSryMouth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].FaceBruxism)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].FaceOnTheNod)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].FaceResidueOfSubstance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].FaceSweatyPerspiring)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].FaceDryMouth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].FaceOther)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].LensesNone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].Glasses)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].Contacts)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].ContactsSoft)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].ContactsHard)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].EyesRed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].EyesWatery)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].EyesBloodShot)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].EyesNormal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BlindnessNone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BlindnessLeft)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BlindnessRight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].BlindnessComment)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].EyelidsNormal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].EyelidsDroopy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].TrackingEqual)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].TrackingUnequal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].TrackingUnequalDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].CoordinationOther)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DreCaseObservations[0].DreCaseId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.DreCaseObservations) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeCooperative)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeCombative)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeIndifferent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeCocky)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeApologetic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeRestless)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeDisoriented)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeAnxious)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeRelaxed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeCareFree)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeConfused)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeDazed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeParanoid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeTalkative)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeUninhibited)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeExcited)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudePassive)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeNonCommunicative)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AttitudeOther)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BalanceSwaying)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BalanceUnsteady)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BalanceNeededSupport)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BalanceFallingDown)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BalanceNormal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BalancePoor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BalanceSlow)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BalanceUncoordinated)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BalanceSluggish)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BalanceDepressedReflexes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BalanceMoonWalking)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpeechSlurred)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpeechIncoherent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpeechThickTongued)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpeechSlowMumbled)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpeechNormal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpeechSlow)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpeechLow)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpeechRaspy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpeechRapidFast)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpeechIncompleteVerbalResposes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SpeechOther)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WalkingStaggering)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WalkingFalling)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WalkingHeavyFooted)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WalkingSwaying)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WalkingNormal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathNormal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathAlcohol)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathMarijuana)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathChemical)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathBad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BreathOther)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaceFlushed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FacePale)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaceNormal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaceScars)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaceOpenSores)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaceInjuries)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaceFacialItching)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaceBlankStare)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaceDazedAppearance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaceSryMouth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaceBruxism)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaceOnTheNod)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaceResidueOfSubstance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaceSweatyPerspiring)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaceDryMouth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FaceOther)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LensesNone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Glasses)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contacts)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactsSoft)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactsHard)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EyesRed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EyesWatery)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EyesBloodShot)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EyesNormal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BlindnessNone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BlindnessLeft)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BlindnessRight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BlindnessComment)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EyelidsNormal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EyelidsDroopy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TrackingEqual)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TrackingUnequal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TrackingUnequalDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CoordinationOther)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DreCaseId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DreCaseObservationsId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DreCaseObservationsId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DreCaseObservationsId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

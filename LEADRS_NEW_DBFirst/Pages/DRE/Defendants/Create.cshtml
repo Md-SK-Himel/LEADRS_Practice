@@ -1,0 +1,93 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.Defendants.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>DreCaseDefendant</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DreCaseDefendant.LastName" class="control-label"></label>
+                <input asp-for="DreCaseDefendant.LastName" class="form-control" />
+                <span asp-validation-for="DreCaseDefendant.LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseDefendant.FirstName" class="control-label"></label>
+                <input asp-for="DreCaseDefendant.FirstName" class="form-control" />
+                <span asp-validation-for="DreCaseDefendant.FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseDefendant.MiddleName" class="control-label"></label>
+                <input asp-for="DreCaseDefendant.MiddleName" class="form-control" />
+                <span asp-validation-for="DreCaseDefendant.MiddleName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseDefendant.DOB" class="control-label"></label>
+                <input asp-for="DreCaseDefendant.DOB" class="form-control" />
+                <span asp-validation-for="DreCaseDefendant.DOB" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseDefendant.Age" class="control-label"></label>
+                <input asp-for="DreCaseDefendant.Age" class="form-control" />
+                <span asp-validation-for="DreCaseDefendant.Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseDefendant.EthnicityId" class="control-label"></label>
+                <input asp-for="DreCaseDefendant.EthnicityId" class="form-control" />
+                <span asp-validation-for="DreCaseDefendant.EthnicityId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseDefendant.SexId" class="control-label"></label>
+                <input asp-for="DreCaseDefendant.SexId" class="form-control" />
+                <span asp-validation-for="DreCaseDefendant.SexId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseDefendant.RaceId" class="control-label"></label>
+                <input asp-for="DreCaseDefendant.RaceId" class="form-control" />
+                <span asp-validation-for="DreCaseDefendant.RaceId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseDefendant.ArrestingOfficerId" class="control-label"></label>
+                <input asp-for="DreCaseDefendant.ArrestingOfficerId" class="form-control" />
+                <span asp-validation-for="DreCaseDefendant.ArrestingOfficerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseDefendant.ArrestingOfficerAgency" class="control-label"></label>
+                <input asp-for="DreCaseDefendant.ArrestingOfficerAgency" class="form-control" />
+                <span asp-validation-for="DreCaseDefendant.ArrestingOfficerAgency" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseDefendant.ArrestingOfficerName" class="control-label"></label>
+                <input asp-for="DreCaseDefendant.ArrestingOfficerName" class="form-control" />
+                <span asp-validation-for="DreCaseDefendant.ArrestingOfficerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseDefendant.ArrestingOfficerTypeId" class="control-label"></label>
+                <select asp-for="DreCaseDefendant.ArrestingOfficerTypeId" class ="form-control" asp-items="ViewBag.ArrestingOfficerTypeId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseDefendant.DreCaseId" class="control-label"></label>
+                <input asp-for="DreCaseDefendant.DreCaseId" class="form-control" />
+                <span asp-validation-for="DreCaseDefendant.DreCaseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

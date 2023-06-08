@@ -1,0 +1,65 @@
+﻿@page
+@model LEADRS_NEW_DBFirst.Pages.DRE.VitalSigns.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>DreCaseVitalSign</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="DreCaseVitalSign.DreCaseVitalSignId" />
+            <div class="form-group">
+                <label asp-for="DreCaseVitalSign.PulseRate" class="control-label"></label>
+                <input asp-for="DreCaseVitalSign.PulseRate" class="form-control" />
+                <span asp-validation-for="DreCaseVitalSign.PulseRate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseVitalSign.PulseTime" class="control-label"></label>
+                <input asp-for="DreCaseVitalSign.PulseTime" class="form-control" />
+                <span asp-validation-for="DreCaseVitalSign.PulseTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseVitalSign.PulseSite" class="control-label"></label>
+                <input asp-for="DreCaseVitalSign.PulseSite" class="form-control" />
+                <span asp-validation-for="DreCaseVitalSign.PulseSite" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseVitalSign.BPSystolic" class="control-label"></label>
+                <input asp-for="DreCaseVitalSign.BPSystolic" class="form-control" />
+                <span asp-validation-for="DreCaseVitalSign.BPSystolic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseVitalSign.BPDiastolic" class="control-label"></label>
+                <input asp-for="DreCaseVitalSign.BPDiastolic" class="form-control" />
+                <span asp-validation-for="DreCaseVitalSign.BPDiastolic" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseVitalSign.Temperature" class="control-label"></label>
+                <input asp-for="DreCaseVitalSign.Temperature" class="form-control" />
+                <span asp-validation-for="DreCaseVitalSign.Temperature" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DreCaseVitalSign.DreCaseId" class="control-label"></label>
+                <input asp-for="DreCaseVitalSign.DreCaseId" class="form-control" />
+                <span asp-validation-for="DreCaseVitalSign.DreCaseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
