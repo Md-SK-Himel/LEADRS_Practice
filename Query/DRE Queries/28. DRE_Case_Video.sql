@@ -1,0 +1,47 @@
+--DONE
+
+
+DECLARE @query NVARCHAR(MAX)
+DECLARE @SQL_SCRIPT NVARCHAR(MAX)
+DECLARE @DB1_Name NVARCHAR(50)
+DECLARE @DB2_Name NVARCHAR(50)
+
+
+SET @DB1_Name = '[LEADRS_CORE_DEV_DUI]';
+SET @DB2_Name = '[LEADRS_TX_STAGING]';
+
+
+SET @query = '
+SET IDENTITY_INSERT {DB1Name}.dre.DRE_Case_Video ON
+
+insert into {DB1Name}.dre.DRE_Case_Video
+(	[DreCaseVideoId],
+	[DreCaseId],
+	[VideoS3Url],
+	[ArchiveId],
+	[ApiKey]
+)
+select [DRE_CASE_VIDEO_ID],
+	TBL_DRE_CASE_VIDEOS.[DRE_CASE_ID],
+	[VIDEO_S3_URL],
+	[ARCHIVE_ID],
+	[API_KEY]
+from {DB2Name}.dbo.TBL_DRE_CASE_VIDEOS
+	,{DB2Name}.dbo.TBL_DRE_CASE
+WHERE TBL_DRE_CASE_VIDEOS.DRE_CASE_ID = TBL_DRE_CASE.DRE_CASE_ID
+	AND
+	[DRE_CASE_VIDEO_ID] NOT IN (
+    SELECT [DreCaseVideoId]
+    FROM {DB1Name}.dre.DRE_Case_Video
+	WHERE DRE_Case_Video.DreCaseId = TBL_DRE_CASE.DRE_CASE_ID
+)
+
+SET IDENTITY_INSERT {DB1Name}.dre.DRE_Case_Video OFF ';
+
+
+SET @SQL_SCRIPT = REPLACE(@query, '{DB1Name}', @DB1_Name)
+SET @SQL_SCRIPT = REPLACE(@SQL_SCRIPT, '{DB2Name}', @DB2_Name)
+
+EXECUTE (@SQL_SCRIPT)
+
+

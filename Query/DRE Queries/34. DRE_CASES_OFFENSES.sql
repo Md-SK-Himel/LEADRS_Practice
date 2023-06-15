@@ -1,0 +1,74 @@
+--DONE
+
+
+DECLARE @query NVARCHAR(MAX)
+DECLARE @SQL_SCRIPT NVARCHAR(MAX)
+DECLARE @DB1_Name NVARCHAR(50)
+DECLARE @DB2_Name NVARCHAR(50)
+
+
+SET @DB1_Name = '[LEADRS_CORE_DEV_DUI]';
+SET @DB2_Name = '[LEADRS_TX_STAGING]';
+
+
+SET @query = '
+SET IDENTITY_INSERT {DB1Name}.dre.DRE_CASES_OFFENSES ON
+
+insert into {DB1Name}.dre.DRE_CASES_OFFENSES
+(	[DreCaseOffenseId],
+	DreCaseId,
+	CrashId,
+	Assault,
+	AssaultCharged,
+	Charged,
+	DWI,
+	InjuryId,
+	NoChargeComment,
+	OffenseId,
+	Other,
+	OtherCharged,
+	Possession,
+	PossessionCharged,
+	PublicIntox,
+	RecklessDriving,
+	Theft,
+	TheftCharged
+)
+select [DRE_OFFENSE_ID],
+	TBL_DRE_CASE_OFFENSE.[DRE_CASE_ID],
+	[ACCIDENT_ID],
+	[ASSAULT],
+	[ASSAULT_CHARGE],
+	[CHARGED],
+	[DWI],
+	[INJURIES_ID],
+	[NO_CHARGE_COMMENT],
+	[OFFENSE_ID],
+	[OTHER],
+	[OTHER_CHARGE],
+	[POSSESSION],
+	[POSSESSION_CHARGE],
+	[PUBLIC_INTOX],
+	[RECKLESS_DRIVING],
+	[THEFT],
+	[THEFT_CHARGE]
+from {DB2Name}.dbo.TBL_DRE_CASE_OFFENSE
+	,{DB2Name}.dbo.TBL_DRE_CASE
+WHERE TBL_DRE_CASE_OFFENSE.DRE_CASE_ID = TBL_DRE_CASE.DRE_CASE_ID
+	AND
+	[DRE_OFFENSE_ID] NOT IN (
+    SELECT [DreCaseOffenseId]
+    FROM {DB1Name}.dre.DRE_CASES_OFFENSES
+	WHERE DRE_CASES_OFFENSES.DreCaseId = TBL_DRE_CASE.DRE_CASE_ID
+)
+	
+SET IDENTITY_INSERT {DB1Name}.dre.DRE_CASES_OFFENSES OFF ';
+
+
+
+SET @SQL_SCRIPT = REPLACE(@query, '{DB1Name}', @DB1_Name)
+SET @SQL_SCRIPT = REPLACE(@SQL_SCRIPT, '{DB2Name}', @DB2_Name)
+
+EXECUTE (@SQL_SCRIPT)
+
+

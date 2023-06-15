@@ -1,0 +1,59 @@
+--DONE
+
+
+DECLARE @query NVARCHAR(MAX)
+DECLARE @SQL_SCRIPT NVARCHAR(MAX)
+DECLARE @DB1_Name NVARCHAR(50)
+DECLARE @DB2_Name NVARCHAR(50)
+
+
+SET @DB1_Name = '[LEADRS_CORE_DEV_DUI]';
+SET @DB2_Name = '[LEADRS_TX_STAGING]';
+
+
+SET @query = '
+set IDENTITY_INSERT {DB1Name}.dre.DreCaseToxSpec ON
+
+insert into {DB1Name}.dre.DreCaseToxSpec
+(	[DreCaseToxSpecId],
+	[DreCaseId],
+	[ToxSpecTypeId],
+	[BacResult],
+	[HospSerResult],
+	[WholeBloodResult],
+	[Active],
+	[DtCreated],
+	[DtUpdated],
+	[NoAlcohol]
+)
+select CASE_TOX_SPEC_ID,
+	TBL_DRE_CASE_TOXICOLOGY_SPEC.[DRE_CASE_ID],
+	[TOX_SPECIMEN_TYPE_ID],
+	[BAC_RESULT],
+	[HOSP_SER_RESULT],
+	[WHOLE_BLOOD_RESULT],
+	[ACTIVE],
+	[DT_CREATED],
+	[DT_UPDATED],
+	[NO_ALCOHOL]
+from {DB2Name}.dbo.TBL_DRE_CASE_TOXICOLOGY_SPEC
+	,{DB2Name}.dbo.TBL_DRE_CASE
+WHERE TBL_DRE_CASE_TOXICOLOGY_SPEC.DRE_CASE_ID = TBL_DRE_CASE.DRE_CASE_ID
+	AND
+	[CASE_TOX_SPEC_ID] NOT IN (
+    SELECT [DreCaseToxSpecId]
+    FROM {DB1Name}.dre.DreCaseToxSpec
+	WHERE DreCaseToxSpec.DreCaseId = TBL_DRE_CASE.DRE_CASE_ID
+)
+ORDER BY TBL_DRE_CASE_TOXICOLOGY_SPEC.DRE_CASE_ID
+
+set IDENTITY_INSERT {DB1Name}.dre.DreCaseToxSpec OFF';
+
+
+
+SET @SQL_SCRIPT = REPLACE(@query, '{DB1Name}', @DB1_Name)
+SET @SQL_SCRIPT = REPLACE(@SQL_SCRIPT, '{DB2Name}', @DB2_Name)
+
+EXECUTE (@SQL_SCRIPT)
+
+
