@@ -13,7 +13,7 @@ SET @DB2_Name = '[LEADRS_TX_STAGING]';
 
 SET @query = '
 
-insert into {DB1Name}.dre.DRE_DEFENDANTS
+INSERT INTO {DB1Name}.dre.DRE_DEFENDANTS
 (	DreCaseId,
 	Age,
 	DOB,
@@ -28,7 +28,7 @@ insert into {DB1Name}.dre.DRE_DEFENDANTS
 	ArrestingOfficerName,
 	ArrestingOfficerTypeId
 )
-select DRE_CASE_ID,
+SELECT DRE_CASE_ID,
 	DEF_AGE,
 	DEF_DOB,
 	Def_Ethnicity_ID,
@@ -41,7 +41,7 @@ select DRE_CASE_ID,
 	ARR_OFF_ID,
 	ARR_OFF_NAME,
 	ARR_OFF_TYPE_ID
-from {DB2Name}.dbo.TBL_DRE_CASE
+FROM {DB2Name}.dbo.TBL_DRE_CASE
 WHERE [DRE_CASE_ID] NOT IN (
     SELECT [DreCaseId]
     FROM {DB1Name}.dre.DRE_DEFENDANTS
