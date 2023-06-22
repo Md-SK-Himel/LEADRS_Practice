@@ -14,7 +14,7 @@ SET @DB2_Name = '[LEADRS_TX_STAGING]';
 SET @query = '
 set IDENTITY_INSERT {DB1Name}.dre.DRE_CASE_NOTES ON
 
-insert into LEADRS_CORE_DEV_DUI.dre.DRE_CASE_NOTES
+insert into {DB1Name}.dre.DRE_CASE_NOTES
 (
 	DreCaseNoteId,
 	DreCaseId,

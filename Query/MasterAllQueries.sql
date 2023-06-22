@@ -23,7 +23,7 @@ DELETE FROM #FileList WHERE FilePath IS NULL
 DECLARE @filePath NVARCHAR(255)
 
 DECLARE filePathCursor CURSOR FOR
-SELECT Id, FilePath FROM #FileList
+SELECT FilePath FROM #FileList
 ORDER BY Id
 
 OPEN filePathCursor
